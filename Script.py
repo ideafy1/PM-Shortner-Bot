@@ -174,10 +174,10 @@ SERIES ➢ Sᴇʟᴇᴄᴛ "SEASON"
 
     SINFO = """
 -------------
-SERIES REQUEST FORMAT ✅
+SERIES REQUEST FORMAT 
 -------------
 
-GO TO GOOGLE 👇🏻\n TYPE THE SERIES NAME 👇🏻 \nCOPY THE FULL NAME 👇🏻n Paste it here 🤞🏻✅
+GO TO GOOGLE 👇🏻\n TYPE THE SERIES NAME 👇🏻 \nCOPY THE FULL NAME 👇🏻n Paste it here 🤞🏻
 
 EXAMPLE : ```Loki S01E01```
 
