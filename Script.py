@@ -173,9 +173,9 @@ MOVIES ➢ Sᴇʟᴇᴄᴛ "LANGUAGE"
 SERIES ➢ Sᴇʟᴇᴄᴛ "SEASON"
 
     SINFO = """
-⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯
+-------------
 SERIES REQUEST FORMAT ✅
-⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯
+-------------
 
 GO TO GOOGLE 👇🏻\n TYPE THE SERIES NAME 👇🏻 \nCOPY THE FULL NAME 👇🏻n Paste it here 🤞🏻✅
 
