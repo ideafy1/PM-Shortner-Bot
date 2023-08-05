@@ -91,15 +91,15 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-                    InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                    InlineKeyboardButton('➕ BEGIN MY JOURNEY WITH YOU 😎➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('🍂 ᴜᴘᴅᴀᴛᴇ🍂', url=CHNL_LNK),
-                    InlineKeyboardButton('🫨 ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=GRP_LNK)
+                    InlineKeyboardButton('⚡ RECOMMENDATIONS 💖', url=CHNL_LNK),
+                    InlineKeyboardButton('🔎 SEARCH ENGINE 🔍', url=GRP_LNK)
                 ],[
-                    InlineKeyboardButton('👻 ʜᴇʟᴘ', callback_data='help'),
-                    InlineKeyboardButton('👾 ʜᴇʟᴘ', callback_data='about')
+                    InlineKeyboardButton('GET HELP 🤔🫶🏻', callback_data='help'),
+                    InlineKeyboardButton('📍BACK-END & EXTRAS 🧐', callback_data='about')
                 ],[
-                    InlineKeyboardButton('🎁 ɢᴇᴛ ᴅɪʀᴇᴄᴛ ᴍᴏᴠɪᴇ 🎁', callback_data="shortlink_info")
+                    InlineKeyboardButton('🔑 GET DIRECT CONTENT 🤩', callback_data="shortlink_info")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)      
         await message.reply_photo(
