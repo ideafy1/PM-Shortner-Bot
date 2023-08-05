@@ -129,7 +129,7 @@ FORMAT FOR REQUESTING CONTENT (MOVIE)👇🏻
 
 FORMAT FOR REQUESTING CONTENT (SERIES) 👇
 
-ᴇxᴀᴍᴘʟᴇ : ```Loki 2023``` \n ```Loki S01``` \n ```Loki S01E04``` \n ```Lucifer S03```
+ᴇxᴀᴍᴘʟᴇ : ```Loki 2023```\n```Loki S01```\n```Loki S01E04```\n```Lucifer S03```
 
 ❌ <b>PLEASEE DONT USE THISS</b> 😤 ❌ ➠ ':(!,./)</b>"""
 
