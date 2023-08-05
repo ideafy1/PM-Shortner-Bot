@@ -177,7 +177,7 @@ SERIES ➢ Sᴇʟᴇᴄᴛ "SEASON"
 SERIES REQUEST FORMAT 
 -------------
 
-GO TO GOOGLE 👇🏻\nTYPE THE SERIES NAME 👇🏻\nCOPY THE FULL NAME👇🏻\nPaste it here 🤞🏻
+ɢᴏ ᴛᴏ ɢᴏᴏɢʟᴇ ➠ ᴛʏᴘᴇ ꜱᴇʀɪᴇꜱ ɴᴀᴍᴇ ➠ ᴄᴏᴘʏ ᴄᴏʀʀᴇᴄᴛ ɴᴀᴍᴇ ➠ ᴘᴀꜱᴛᴇ ɪɴ ᴛʜɪꜱ ɢʀᴏᴜᴘ
 
 EXAMPLE : ```Loki S01E01```
 
