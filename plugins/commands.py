@@ -28,7 +28,7 @@ async def start(client, message):
                     InlineKeyboardButton('⚡ RECOMMENDATIONS 💖', url="https://t.me/yedekho_in/58"),
                     InlineKeyboardButton('🔎 SEARCH ENGINE 🔍', url=GRP_LNK)
                 ],[
-                    InlineKeyboardButton('YOU'LL LOVE THIS ⚡😚', url=CHNL_LNK)
+                    InlineKeyboardButton('YOU WILL LOVE IT ❤️😚', url=CHNL_LNK)
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.START_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup, disable_web_page_preview=True)
