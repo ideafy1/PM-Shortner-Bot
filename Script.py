@@ -2,20 +2,18 @@ class script(object):
     START_TXT = """hiii 🤩 {} \n\n𝘞𝘦𝘭𝘤𝘰𝘮𝘦 𝘵𝘰 𝘸𝘰𝘳𝘭𝘥'𝘴 ⚡️ 𝘤𝘰𝘰𝘭𝘦𝘴𝘵 𝘤𝘰𝘯𝘵𝘦𝘯𝘵 𝘴𝘦𝘢𝘳𝘤𝘩 𝘦𝘯𝘨𝘪𝘯𝘦 ! 𝘠𝘦𝘋𝘦𝘬𝘩𝘰\n\n𝘛𝘩𝘢𝘯𝘬𝘴 𝘧𝘰𝘳 𝘣𝘦𝘪𝘯𝘨 𝘩𝘦𝘳𝘦 🍿🥤 \n{}"""
 
     
-    HELP_TXT = """<b>hey {} if you need help, here are your buttons 😌👇🏻</b>"""
+    HELP_TXT = """<b>hey {} \nIf you need help, here are your buttons 😌👇🏻</b>"""
 
-    ABOUT_TXT = """<b>
- 🤖 ᴍʏ ɴᴀᴍᴇ : {}
- 👨‍💻 ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/J_shree_ram'>ɴᴏᴛʜɪɴɢ ʙʀᴏ</a>
- 📚 ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a>
- 📝 ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a>
- ♻️ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a>
- 📡 ʜᴏsᴛᴇᴅ ᴏɴ  : <a href='https://www.heroku.com/'>Heroku</a>
- 🥶 ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ3.0 [sᴛᴀʙʟᴇ​]</b>"""
+    ABOUT_TXT = """<b>YeDekho Search Engine 🔍</b>
+ 🧠 BRAIN : <a href='https://t.me/ideafy'>telegram</a>
+ 🔤 LANGUAGE : 🇮🇳
+ 💀 FRAMEWORK : 🐍3
+ 🧐 SUPPORT: <a href=https://t.me/yedekho_faq>🤜🏻🤛🏻</a>
+ 🏡 HOME : <a href=https://www.render.com/>🛖</a>
+ 🥶 LIFE : ᴠ3.0 [sᴛᴀʙʟᴇ]</b>"""
 
     SOURCE_TXT = """
-<b>Tʜɪꜱ Bᴏᴛ Iꜱ NOT Oᴘᴇɴ Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ.
-"""
+<b>Marvelous creation of yedekho devs ✅⚡ @yedekho"""
 
     MANUELFILTER_TXT = """ʜᴇʟᴘ: <b>ꜰɪʟᴛᴇʀꜱ</b>
 - ꜰɪʟᴛᴇʀ ɪꜱ ᴀ ꜰᴇᴀᴛᴜʀᴇ ᴡᴇʀᴇ ᴜꜱᴇʀꜱ ᴄᴀɴ ꜱᴇᴛ ᴀᴜᴛᴏᴍᴀᴛᴇᴅ ʀᴇᴘʟɪᴇꜱ ꜰᴏʀ ᴀ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ᴋᴇʏᴡᴏʀᴅ ᴀɴᴅ ɪ ᴡɪʟʟ ʀᴇꜱᴘᴏɴᴅ ᴡʜᴇɴᴇᴠᴇʀ ᴀ ᴋᴇʏᴡᴏʀᴅ ɪꜱ ꜰᴏᴜɴᴅ ɪɴ ᴛʜᴇ ᴍᴇꜱꜱᴀɢᴇ
