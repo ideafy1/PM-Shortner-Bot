@@ -298,7 +298,7 @@ async def start(client, message):
     elif data.startswith("all"):
         files = temp.GETALL.get(file_id)
         if not files:
-            return await message.reply('<b><i>ayee, i don't Remember that 🤔</b></i>')
+            return await message.reply('<b><i>ayee, i dont Remember that 🤔</b></i>')
         filesarr = []
         for file in files:
             file_id = file.file_id
