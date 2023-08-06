@@ -5,6 +5,7 @@ class script(object):
     HELP_TXT = """<b>hey {} \nIf you need help, here are your buttons 😌👇🏻</b>"""
 
     ABOUT_TXT = """<b>YeDekho Search Engine 🔍</b>
+
  🧠 BRAIN : <a href='https://t.me/ideafy'>telegram</a>
 
  🔤 LANGUAGE : 🇮🇳
