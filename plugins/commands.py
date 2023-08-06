@@ -51,7 +51,7 @@ async def start(client, message):
                     InlineKeyboardButton('🤔 Help', callback_data='help'),
                     InlineKeyboardButton('🧐 Extras', callback_data='about')
                 ],[
-                    InlineKeyboardButton('🌕 GET DIRECT CONTENT', callback_data="shortlink_info")
+                    InlineKeyboardButton('GET DIRECT CONTENT ✅', callback_data="shortlink_info")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -99,7 +99,7 @@ async def start(client, message):
                     InlineKeyboardButton('🤔 Help', callback_data='help'),
                     InlineKeyboardButton('🧐 Extras', callback_data='about')
                 ],[
-                    InlineKeyboardButton('🌕 GET DIRECT CONTENT', callback_data="shortlink_info")
+                    InlineKeyboardButton('GET DIRECT CONTENT ✅', callback_data="shortlink_info")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)      
         await message.reply_photo(
@@ -150,10 +150,10 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton('⛔️ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ ⛔️', url=f'https://t.me/{SUPPORT_CHAT}'),
-                          InlineKeyboardButton('🫨ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                          InlineKeyboardButton('🔎 Search', url=f'https://t.me/{SUPPORT_CHAT}'),
+                          InlineKeyboardButton('😎 Updates', url=CHNL_LNK)
                        ],[
-                          InlineKeyboardButton("😇ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ😇", url="https://t.me/+4nzja42ELQwzOWVl")
+                          InlineKeyboardButton("↺ 😌 Content Request", url="https://t.me/yedekho_req")
                          ]
                         ]
                     )
@@ -169,10 +169,10 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton('🫨ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-                          InlineKeyboardButton('ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                          InlineKeyboardButton('🔎 Search', url=f'https://t.me/{SUPPORT_CHAT}'),
+                          InlineKeyboardButton('😎 Updates', url=CHNL_LNK)
                        ],[
-                          InlineKeyboardButton("😇ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ😇", url="https://t.me/+4nzja42ELQwzOWVl")
+                          InlineKeyboardButton("↺ 😌 Content Request", url="https://t.me/yedekho_req")
                          ]
                         ]
                     )
@@ -263,15 +263,15 @@ async def start(client, message):
         k = await client.send_message(chat_id=message.from_user.id,text=f"<b>Get All Files in a Single Click!!!\n\n📂 ʟɪɴᴋ ➠ : {g}\n\n<i>Note: This message is deleted in 5 mins to avoid copyrights. Save the link to Somewhere else</i></b>", reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton('📁 ᴍᴏᴠɪᴇ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ 📁', url=g)
+                        InlineKeyboardButton('DOWNLOAD NOW ↧', url=g)
                     ], [
-                        InlineKeyboardButton('🤔 Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ 🤔', url=await get_tutorial(chat_id))
+                        InlineKeyboardButton('HOW TO DOWNLOAD 🤔💨', url=await get_tutorial(chat_id))
                     ]
                 ]
             )
         )
         await asyncio.sleep(300)
-        await k.edit("<b>Your message is successfully deleted!!!</b>")
+        await k.edit("<b>Done 🗑 It is Gone ! ⛔</b>")
         return
         
     
@@ -281,24 +281,24 @@ async def start(client, message):
         files_ = await get_file_details(file_id)
         files = files_[0]
         g = await get_shortlink(chat_id, f"https://telegram.me/{temp.U_NAME}?start=file_{file_id}")
-        k = await client.send_message(chat_id=user,text=f"<b>📕Nᴀᴍᴇ ➠ : <code>{files.file_name}</code> \n\n🔗Sɪᴢᴇ ➠ : {get_size(files.file_size)}\n\n📂Fɪʟᴇ ʟɪɴᴋ ➠ : {g}\n\n<i>Note: ⚠️ ᴛʜɪs ᴍᴇssᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏ ᴅᴇʟᴇᴛᴇᴅ ᴀғᴛᴇʀ 𝟷𝟶 ᴍɪɴᴜᴛᴇs.</i></b>", reply_markup=InlineKeyboardMarkup(
+        k = await client.send_message(chat_id=user,text=f"<b>NAME ➚ : <code>{files.file_name}</code> \n\nSize 📏 ➚ : {get_size(files.file_size)}\n\nDownload Link ➚ : {g}\n\n<i>TIP: ⚠️ This will be deleted soon.</i></b>", reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton('📂 ᴍᴏᴠɪᴇ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ 📂', url=g)
+                        InlineKeyboardButton('DOWNLOAD NOW ↧', url=g)
                     ], [
-                        InlineKeyboardButton('🤔 Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ 🤔', url=await get_tutorial(chat_id))
+                        InlineKeyboardButton('HOW TO DOWNLOAD 🤔💨', url=await get_tutorial(chat_id))
                     ]
                 ]
             )
         )
         await asyncio.sleep(600)
-        await k.edit("<b>Your message is successfully deleted!!!</b>")
+        await k.edit("<b>Done 🗑 It is Gone ! ⛔</b>")
         return
         
     elif data.startswith("all"):
         files = temp.GETALL.get(file_id)
         if not files:
-            return await message.reply('<b><i>No such file exist.</b></i>')
+            return await message.reply('<b><i>ayee, i don't Remember that 🤔</b></i>')
         filesarr = []
         for file in files:
             file_id = file.file_id
