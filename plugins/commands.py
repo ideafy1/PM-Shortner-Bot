@@ -23,7 +23,7 @@ BATCH_FILES = {}
 async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [[
-                    InlineKeyboardButton('➕😎 Let's begin', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                    InlineKeyboardButton('😎🎉 Begin', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('🔖 Place Ad', url="https://t.me/yedekho_faq/2"),
                     InlineKeyboardButton('🔎 Search', url=GRP_LNK)
@@ -43,13 +43,13 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-                    InlineKeyboardButton('➕😎 Let's begin', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                    InlineKeyboardButton('😎🎉 Begin', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('🔖 Place Ad', url=CHNL_LNK),
                     InlineKeyboardButton('🔎 Search', url=GRP_LNK)
                 ],[
-                    InlineKeyboardButton('🤔 HELP', callback_data='help'),
-                    InlineKeyboardButton('🧐 EXTRAS', callback_data='about')
+                    InlineKeyboardButton('🤔 Help', callback_data='help'),
+                    InlineKeyboardButton('🧐 Extras', callback_data='about')
                 ],[
                     InlineKeyboardButton('🌕 GET DIRECT CONTENT', callback_data="shortlink_info")
                   ]]
@@ -91,13 +91,13 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-                    InlineKeyboardButton('➕😎 Let's begin', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                    InlineKeyboardButton('😎🎉 Begin', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('🔖 Place Ad', url=CHNL_LNK),
                     InlineKeyboardButton('🔎 Search', url=GRP_LNK)
                 ],[
-                    InlineKeyboardButton('🤔 HELP', callback_data='help'),
-                    InlineKeyboardButton('🧐 EXTRAS', callback_data='about')
+                    InlineKeyboardButton('🤔 Help', callback_data='help'),
+                    InlineKeyboardButton('🧐 Extras', callback_data='about')
                 ],[
                     InlineKeyboardButton('🌕 GET DIRECT CONTENT', callback_data="shortlink_info")
                   ]]
