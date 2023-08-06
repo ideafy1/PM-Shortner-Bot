@@ -142,21 +142,14 @@ Nᴀᴍᴇ - {}"""
     MELCOW_ENG = """<b>Hᴇʟʟᴏ {} 😍, Aɴᴅ Wᴇʟᴄᴏᴍᴇ Tᴏ {} Gʀᴏᴜᴘ ❤️</b>"""
 
     SHORTLINK_INFO = """
-<b>──────「<a href=https://t.me/> Hᴏᴡ ᴛᴏ Eᴀʀɴ Mᴏɴᴇʏ </a> 」──────
-
-Yᴏᴜ ᴄᴀɴ Eᴀʀɴ Mᴏɴᴇʏ Fʀᴏᴍ Tʜɪs Bᴏᴛ Uɴᴛɪʟ ᴛʜɪs ʙᴏᴛ ɪs ᴀʟɪᴠᴇ.
-
-Wᴀɴᴛ ᴛᴏ Kɴᴏᴡ Hᴏᴡ? Fᴏʟʟᴏᴡ Tʜᴇsᴇ Sᴛᴇᴘs:-
-
-sᴛᴇᴘ 𝟷 : ʏᴏᴜ ᴍᴜsᴛ ʜᴀᴠᴇ ᴀᴛʟᴇᴀsᴛ ᴏɴᴇ ɢʀᴏᴜᴘ ᴡɪᴛʜ ᴍɪɴɪᴍᴜᴍ 1𝟶𝟶 ᴍᴇᴍʙᴇʀs.
-
-sᴛᴇᴘ 𝟸 : ᴍᴀᴋᴇ ᴀᴄᴄᴏᴜɴᴛ ᴏɴ Aɴʏ <a href=https://Omnifly.in.net>Sʜᴏʀᴛᴇɴᴇʀ Wᴇʙsɪᴛᴇ</a>.
-
-sᴛᴇᴘ 𝟹 : ꜰᴏʟʟᴏᴡ ᴛʜᴇsᴇ <a href=https://t.me/> ɪɴꜱᴛʀᴜᴄᴛɪᴏɴꜱ </a>Tᴏ ᴄᴏɴɴᴇᴄᴛ sʜᴏʀᴛᴇɴᴇʀ.
-
-➣ Yᴏᴜ ᴄᴀɴ ᴄᴏɴɴᴇᴄᴛ ᴀs ᴍᴀɴʏ ɢʀᴏᴜᴘ ʏᴏᴜ ʜᴀᴠᴇ.
-
-Any Doubts or Not Connecting? Contact Me </b>
+<b>──────「<a href=https://t.me/yedekho_verified> FRUSTRATED OF ADS 😤🤧 </a> 」──────
+➫ I know its too frustrating 😖 to watch 𝘈𝘋𝘚 <b>again and again</b>
+➫ BUT WITHOUT ADS I WILL NOT SURVIVE 😰 ( 𝘪 𝘸𝘪𝘭𝘭 𝘣𝘦 𝘧𝘪𝘯𝘪𝘴𝘩𝘦𝘥 ) 😱
+➥ BUT NOW 😧 I HAVE <b>SOMETHING SPECIAL<b/> FOR 🆈🅾🆄 🫵😍
+➥ YOU CAN GET <b>UNLIMITED</b> CONTENT IN JUST <a href=https://t.me/yedekho_verified/1>34₹ p/m</a>.
+➥ SHOCKED ⚡ RIGHT 😱🤩🥳 YOU'LL NEVER IT FOR <b>SOO CHEAP</b> SEE THIS 👉🏼 <a href=https://t.me/yedekho_verified/1> TOUCH ME </a>
+⌦ There's a lot more COMING ⚡ for you 🤜🤛 , <b>STAY WITH ME 👩🏻‍🦰</b>
+<b>any doubts</b> 🙃 message 😒 @ideafy </b>
 """
 
     REQINFO = """
