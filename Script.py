@@ -142,14 +142,21 @@ Nᴀᴍᴇ - {}"""
     MELCOW_ENG = """<b>Hᴇʟʟᴏ {} 😍, Aɴᴅ Wᴇʟᴄᴏᴍᴇ Tᴏ {} Gʀᴏᴜᴘ ❤️</b>"""
 
     SHORTLINK_INFO = """
-<b>──────「<a href=https://t.me/yedekho_verified> FRUSTRATED OF ADS 😤🤧 </a> 」──────
+href=https://t.me/yedekho_verified> FRUSTRATED OF ADS 😤🤧 </a>
+
 ➫ I know its too frustrating 😖 to watch 𝘈𝘋𝘚 <b>again and again</b>
+
 ➫ BUT WITHOUT ADS I WILL NOT SURVIVE 😰 ( 𝘪 𝘸𝘪𝘭𝘭 𝘣𝘦 𝘧𝘪𝘯𝘪𝘴𝘩𝘦𝘥 ) 😱
+
 ➥ BUT NOW 😧 I HAVE <b>SOMETHING SPECIAL<b/> FOR 🆈🅾🆄 🫵😍
-➥ YOU CAN GET <b>UNLIMITED</b> CONTENT IN JUST <a href=https://t.me/yedekho_verified/1>34₹ p/m</a>.
+
+➥ YOU CAN GET <b>UNLIMITED</b> CONTENT IN JUST <a href=https://t.me/yedekho_verified/1>🤭 TOUCH ME</a>
+
 ➥ SHOCKED ⚡ RIGHT 😱🤩🥳 YOU'LL NEVER IT FOR <b>SOO CHEAP</b> SEE THIS 👉🏼 <a href=https://t.me/yedekho_verified/1> TOUCH ME </a>
+
 ⌦ There's a lot more COMING ⚡ for you 🤜🤛 , <b>STAY WITH ME 👩🏻‍🦰</b>
-<b>any doubts</b> 🙃 message 😒 @ideafy </b>
+
+⌦<b>any doubts</b> 🙃 message 😒 @ideafy </b>
 """
 
     REQINFO = """
