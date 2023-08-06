@@ -6,10 +6,15 @@ class script(object):
 
     ABOUT_TXT = """<b>YeDekho Search Engine 🔍</b>
  🧠 BRAIN : <a href='https://t.me/ideafy'>telegram</a>
+
  🔤 LANGUAGE : 🇮🇳
+
  💀 FRAMEWORK : 🐍3
+
  🧐 SUPPORT: <a href=https://t.me/yedekho_faq>🤜🏻🤛🏻</a>
+
  🏡 HOME : <a href=https://www.render.com/>🛖</a>
+
  🥶 LIFE : ᴠ3.0 [sᴛᴀʙʟᴇ]</b>"""
 
     SOURCE_TXT = """
