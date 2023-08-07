@@ -1371,7 +1371,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('🔎 Search', url=GRP_LNK)
                 ],[
                     InlineKeyboardButton('🔖 Place Ad', url="https://telegram.me/yedekho_faq"),
-                    InlineKeyboardButton('🥤 Donate', url="http://bit.ly/donate-yedekho")
+                    InlineKeyboardButton('🥤 Donate', callback_data='shivam')
                 ],[
                     InlineKeyboardButton('🤔 Help', callback_data='help'),
                     InlineKeyboardButton('😎🎉 Begin', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
@@ -1499,6 +1499,29 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
         await query.message.edit_text(
             text=script.MANUELFILTER_TXT,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        )
+    elif query.data == "shivam":
+        buttons = [[
+            InlineKeyboardButton('text 1', url="https://t.me/yedekho_faq")
+        ],[
+            InlineKeyboardButton('text 2', url="https://t.me/yedekho_faq"),
+            InlineKeyboardButton('text 3', url="https://t.me/yedekho_faq")
+        ],[
+            InlineKeyboardButton('text 4', url="https://t.me/yedekho_faq"),
+            InlineKeyboardButton('text 5', url="https://t.me/yedekho_faq")
+        ],[
+            InlineKeyboardButton('⇍ ʙᴀᴄᴋ ⇏', callback_data='start')
+        ]]
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto(random.choice(PICS))
+        )
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.KHUSH_TXT.format(temp.B_NAME),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
