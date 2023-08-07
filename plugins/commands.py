@@ -46,7 +46,7 @@ async def start(client, message):
                     InlineKeyboardButton('🔎 Search', url=GRP_LNK)
                 ],[
                     InlineKeyboardButton('🔖 Place Ad', url="https://telegram.me/yedekho_faq"),
-                    InlineKeyboardButton('🥤 Donate', url="https://telegram.me/yedekho_faq")
+                    InlineKeyboardButton('🥤 Donate', callback_data='shivam')
                 ],[
                     InlineKeyboardButton('🤔 Help', callback_data='help'),
                     InlineKeyboardButton('😎🎉 Begin', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
@@ -94,7 +94,7 @@ async def start(client, message):
                     InlineKeyboardButton('🔎 Search', url=GRP_LNK)
                 ],[
                     InlineKeyboardButton('🔖 Place Ad', url="https://telegram.me/yedekho_faq"),
-                    InlineKeyboardButton('🔎 Search', url="https://telegram.me/yedekho_faq")
+                    InlineKeyboardButton('🥤 Donate', callback_data='shivam')
                 ],[
                     InlineKeyboardButton('🤔 Help', callback_data='help'),
                     InlineKeyboardButton('😎🎉 Begin', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
