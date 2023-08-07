@@ -1371,7 +1371,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('🔎 Search', url=GRP_LNK)
                 ],[
                     InlineKeyboardButton('🔖 Place Ad', url="https://telegram.me/yedekho_faq"),
-                    InlineKeyboardButton('🥤 Donate', url="https://telegram.me/yedekho_faq")
+                    InlineKeyboardButton('🥤 Donate', url="upi://pay?pa=adityasinghrajput6official-2@okaxis&pn=AdityaSingh&am=1000.00&tn=Thanks%20For%20Donating%20YeDekho")
                 ],[
                     InlineKeyboardButton('🤔 Help', callback_data='help'),
                     InlineKeyboardButton('😎🎉 Begin', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
