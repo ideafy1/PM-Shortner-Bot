@@ -23,10 +23,10 @@ BATCH_FILES = {}
 async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [[
-                    InlineKeyboardButton('😎🎉 Begin', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                    InlineKeyboardButton('🔎 Search', url=GRP_LNK)
                 ],[
                     InlineKeyboardButton('🔖 Place Ad', url="https://t.me/yedekho_faq/2"),
-                    InlineKeyboardButton('🔎 Search', url=GRP_LNK)
+                    InlineKeyboardButton('🥤 Donate', url="https://t.me/yedekho_faq")
                 ],[
                     InlineKeyboardButton('🆕 Latest', url=CHNL_LNK)
                   ]]
@@ -43,15 +43,15 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-                    InlineKeyboardButton('😎🎉 Begin', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-                ],[
-                    InlineKeyboardButton('🔖 Place Ad', url=CHNL_LNK),
                     InlineKeyboardButton('🔎 Search', url=GRP_LNK)
                 ],[
-                    InlineKeyboardButton('🤔 Help', callback_data='help'),
-                    InlineKeyboardButton('🧐 Extras', callback_data='about')
+                    InlineKeyboardButton('🔖 Place Ad', url="https://telegram.me/yedekho_faq"),
+                    InlineKeyboardButton('🥤 Donate', url="https://telegram.me/yedekho_faq")
                 ],[
-                    InlineKeyboardButton('GET DIRECT CONTENT ✅', callback_data="shortlink_info")
+                    InlineKeyboardButton('🤔 Help', callback_data='help'),
+                    InlineKeyboardButton('😎🎉 Begin', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
+                ],[
+                    InlineKeyboardButton('Get Verified ⭐🎗️', callback_data="shortlink_info")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -91,15 +91,15 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-                    InlineKeyboardButton('😎🎉 Begin', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-                ],[
-                    InlineKeyboardButton('🔖 Place Ad', url=CHNL_LNK),
                     InlineKeyboardButton('🔎 Search', url=GRP_LNK)
                 ],[
-                    InlineKeyboardButton('🤔 Help', callback_data='help'),
-                    InlineKeyboardButton('🧐 Extras', callback_data='about')
+                    InlineKeyboardButton('🔖 Place Ad', url="https://telegram.me/yedekho_faq"),
+                    InlineKeyboardButton('🔎 Search', url="https://telegram.me/yedekho_faq")
                 ],[
-                    InlineKeyboardButton('GET DIRECT CONTENT ✅', callback_data="shortlink_info")
+                    InlineKeyboardButton('🤔 Help', callback_data='help'),
+                    InlineKeyboardButton('😎🎉 Begin', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
+                ],[
+                    InlineKeyboardButton('Get Verified ⭐🎗️', callback_data="shortlink_info")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)      
         await message.reply_photo(
