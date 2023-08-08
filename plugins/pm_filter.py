@@ -1504,15 +1504,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "shivam":
         buttons = [[
-            InlineKeyboardButton('🤗 Donate Any Amount', url="https://bit.ly/yedekho_donation")
+            InlineKeyboardButton('🤩 Donate Any Amount', url="https://bit.ly/yedekho_donation")
         ],[
-            InlineKeyboardButton('😗 9.99₹', url="https://bit.ly/yedekho-donate-9rs"),
-            InlineKeyboardButton('😙 29.9₹', url="https://bit.ly/yedekho-donate-29rs")
+            InlineKeyboardButton('🌼 Donate - 9.99₹', url="https://bit.ly/yedekho-donate-9rs"),
+            InlineKeyboardButton('🌸 Donate - 29.9₹', url="https://bit.ly/yedekho-donate-29rs")
         ],[
-            InlineKeyboardButton('😚 49.9₹ ', url="https://bit.ly/yedekho-donate-49rs"),
-            InlineKeyboardButton('😘 99.0₹', url="https://bit.ly/yedekho-donate-99rs")
+            InlineKeyboardButton('🌹 Donate - 49.9₹ ', url="https://bit.ly/yedekho-donate-49rs"),
+            InlineKeyboardButton('🌷 Donate - 99.0₹', url="https://bit.ly/yedekho-donate-99rs")
         ],[
-            InlineKeyboardButton('⇍ ʙᴀᴄᴋ ⇏', callback_data='start')
+            InlineKeyboardButton('I am Joker, I will not Donate 🤡', callback_data='start')
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
