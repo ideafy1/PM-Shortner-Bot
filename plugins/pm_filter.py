@@ -1504,13 +1504,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "shivam":
         buttons = [[
-            InlineKeyboardButton('text 1', url="https://t.me/yedekho_faq")
+            InlineKeyboardButton('🤗 Donate Any Amount', url="https://bit.ly/yedekho_donation")
         ],[
-            InlineKeyboardButton('text 2', url="https://t.me/yedekho_faq"),
-            InlineKeyboardButton('text 3', url="https://t.me/yedekho_faq")
+            InlineKeyboardButton('😗 9.99₹', url="https://bit.ly/yedekho-donate-9rs"),
+            InlineKeyboardButton('😙 29.9₹', url="https://bit.ly/yedekho-donate-29rs")
         ],[
-            InlineKeyboardButton('text 4', url="https://t.me/yedekho_faq"),
-            InlineKeyboardButton('text 5', url="https://t.me/yedekho_faq")
+            InlineKeyboardButton('😚 49.9₹ ', url="https://bit.ly/yedekho-donate-49rs"),
+            InlineKeyboardButton('😘 99.0₹', url="https://bit.ly/yedekho-donate-99rs")
         ],[
             InlineKeyboardButton('⇍ ʙᴀᴄᴋ ⇏', callback_data='start')
         ]]
