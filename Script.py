@@ -1,5 +1,5 @@
 class script(object):
-    START_TXT = """hiii 🤩 {} \n\n𝘞𝘦𝘭𝘤𝘰𝘮𝘦 𝘵𝘰 𝘸𝘰𝘳𝘭𝘥'𝘴 ⚡️ 𝘤𝘰𝘰𝘭𝘦𝘴𝘵 𝘤𝘰𝘯𝘵𝘦𝘯𝘵 𝘴𝘦𝘢𝘳𝘤𝘩 𝘦𝘯𝘨𝘪𝘯𝘦 ! 𝘠𝘦𝘋𝘦𝘬𝘩𝘰\n\n𝘛𝘩𝘢𝘯𝘬𝘴 𝘧𝘰𝘳 𝘣𝘦𝘪𝘯𝘨 𝘩𝘦𝘳𝘦 🍿🥤 \n{message.from_user.mention}"""
+    START_TXT = """hiii 🤩 {} \n\n𝘞𝘦𝘭𝘤𝘰𝘮𝘦 𝘵𝘰 𝘸𝘰𝘳𝘭𝘥'𝘴 ⚡️ 𝘤𝘰𝘰𝘭𝘦𝘴𝘵 𝘤𝘰𝘯𝘵𝘦𝘯𝘵 𝘴𝘦𝘢𝘳𝘤𝘩 𝘦𝘯𝘨𝘪𝘯𝘦 ! 𝘠𝘦𝘋𝘦𝘬𝘩𝘰\n\n𝘛𝘩𝘢𝘯𝘬𝘴 𝘧𝘰𝘳 𝘣𝘦𝘪𝘯𝘨 𝘩𝘦𝘳𝘦 🍿🥤 \n{first}"""
 
     
     HELP_TXT = """<b>hey {} \nIf you need help, here are your buttons 😌👇🏻</b>"""
@@ -218,7 +218,7 @@ IMDb Data:
 <b>Hᴇʏ {}, Tʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs.</b>"""
 
     KHUSH_TXT = """
-<b>Wow 🌼 𝖶𝖾 𝖼𝖺𝗇 really 𝖿𝖾𝖾𝗅 𝗒𝗈𝗎𝗋 𝗅𝗈𝗏𝖾! \n🫴🏻❤️ {message.from_user.mention}
+<b>Wow 🌼 𝖶𝖾 𝖼𝖺𝗇 really 𝖿𝖾𝖾𝗅 𝗒𝗈𝗎𝗋 𝗅𝗈𝗏𝖾! \n🫴🏻❤️ {first}
 But, Alas 🫶🏻 we won't last Forever 🥺
 
 But we too 𝗇𝖾𝖾𝖽 𝖾𝗅𝖾𝖼𝗍𝗋𝗂𝖼𝗂𝗍𝗒⚡💪🏻 like food 🐤
