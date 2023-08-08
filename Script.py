@@ -2,8 +2,7 @@ class script(object):
     START_TXT = """hiii 🤩 {} \n\nWelcome to the world's 𝘤𝘰𝘰𝘭𝘦𝘴𝘵 ⚡ 𝘤𝘰𝘯𝘵𝘦𝘯𝘵 search engine  ! 𝘠𝘦𝘋𝘦𝘬𝘩𝘰\n\n𝘛𝘩𝘢𝘯𝘬𝘴 for being here🍿🥤 \n"""
 
     
-    HELP_TXT = """<b>hey {} \n𝘵𝘦𝘭𝘭 𝘮𝘦 𝘸𝘩𝘢𝘵 𝘺𝘰𝘶 𝘯𝘦𝘦𝘥 𝘩𝘦𝘭𝘱 𝘸𝘪𝘵𝘩 ?? 🤔👇🏻</b>
-    You can ➕ADD➕ @YeDekho Search Engine 🔍 to your groups 🔥 \nand enjoy it Personally (maybe) \n𝘏𝘰𝘸 𝘊𝘰𝘰𝘭 𝘪𝘴 𝘛𝘩𝘢𝘵 😎"""
+    HELP_TXT = """hey {} \n𝘵𝘦𝘭𝘭 𝘮𝘦 𝘸𝘩𝘢𝘵 𝘺𝘰𝘶 𝘯𝘦𝘦𝘥 𝘩𝘦𝘭𝘱 𝘸𝘪𝘵𝘩 ?? 🤔👇🏻"""
 
     ABOUT_TXT = """<b>YeDekho Search Engine 🔍</b>
 
