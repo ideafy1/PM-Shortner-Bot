@@ -218,13 +218,15 @@ IMDb Data:
 <b>Hᴇʏ {}, Tʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs.</b>"""
 
     KHUSH_TXT = """
-<b>Wow 🌼 𝖶𝖾 𝖼𝖺𝗇 really 𝖿𝖾𝖾𝗅 𝗒𝗈𝗎𝗋 𝗅𝗈𝗏𝖾! \n🫴🏻❤️
-But, Alas 🫶🏻 we won't last Forever 🥺
+<b>Wow 🌼 I really 𝖿𝖾𝖾𝗅 𝗒𝗈𝗎𝗋 𝗅𝗈𝗏𝖾!❤️
+But, Alas 🫶🏻 I won't last forever 🥺
 
-But we too 𝗇𝖾𝖾𝖽 𝖾𝗅𝖾𝖼𝗍𝗋𝗂𝖼𝗂𝗍𝗒⚡💪🏻 like food 🐤
-So, 𝖫𝖾𝗍'𝗌 𝖿𝗎𝖾𝗅 𝗎𝗉 🔥 𝗍𝗁𝗂𝗌 𝗆𝖺𝗀𝗂𝖼𝖺𝗅 𝖻𝗈𝗍 !! 
-𝖺𝗇𝖽 𝗌𝗎𝗉𝗉𝗈𝗋𝗍 𝗂𝗍'𝗌 𝗌𝖾𝗋𝗏𝖾𝗋 𝖼𝗈𝗌𝗍𝗌 🖥️🔋
-Whether 1 or 100₹ \nY𝗈𝗎 𝖽𝗈 𝗆𝖺𝗄𝖾 𝖺 𝘥𝘪𝘧𝘧𝘦𝘳𝘦𝘯𝘤𝘦 🤝🏻
+I too 𝗇𝖾𝖾𝖽 𝖾𝗅𝖾𝖼𝗍𝗋𝗂𝖼𝗂𝗍𝗒⚡\nlike you need food ☹️
+
+So, 𝖫𝖾𝗍'𝗌 𝖿𝗎𝖾𝗅 me 𝗎𝗉 🔥
+𝖺𝗇𝖽 𝗌𝗎𝗉𝗉𝗈𝗋𝗍 my 𝗌𝖾𝗋𝗏𝖾𝗋 𝖼𝗈𝗌𝗍𝗌 🖥️🔋
+
+Any amount do m𝖺𝗄𝖾 𝖺 𝘥𝘪𝘧𝘧𝘦𝘳𝘦𝘯𝘤𝘦🤌🏻
 
 𝐶ℎ𝑜𝑜𝑠𝑒 𝑤ℎ𝑖𝑐ℎ𝑒𝑣𝑒𝑟 𝑜𝑛𝑒 𝑓𝑖𝑡𝑠 𝑦𝑜𝑢 𝑝𝑜𝑐𝑘𝑒𝑡 🤗😌"""
     
