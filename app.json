@@ -42,6 +42,9 @@
             "description": "Add some telegraph link of pictures .",
             "required": false
         },
+        "AREBHAI": {"description": "Add some telegraph link of that pictures.",
+            "required": true
+        },
         "LOG_CHANNEL": {
             "description": "Bot Logs,Give a channel id with -100xxxxxxx",
             "required": true
