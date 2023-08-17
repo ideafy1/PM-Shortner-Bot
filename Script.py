@@ -226,7 +226,7 @@ Could you just 𝖿𝗎𝖾𝗅 me 𝗎𝗉
 
 Any amount m𝖺𝗄𝖾s 𝖺 𝘥𝘪𝘧𝘧𝘦𝘳𝘦𝘯𝘤𝘦🤌🏻"""
 
-    place_ad = """
+    PLACE_TXT = """
 <b>Promotions / Advertisement"""
     
     GFILTER_TXT = """
