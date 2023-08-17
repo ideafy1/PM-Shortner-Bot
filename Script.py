@@ -226,8 +226,10 @@ Could you just 𝖿𝗎𝖾𝗅 me 𝗎𝗉
 
 Any amount m𝖺𝗄𝖾s 𝖺 𝘥𝘪𝘧𝘧𝘦𝘳𝘦𝘯𝘤𝘦🤌🏻"""
 
-    PLACE_TXT = """
-<b>Promotions / Advertisement"""
+    PLACE_TXT = """This is your chance 👀\n<b>Let's make it large 🤍</b>
+on @yedekho
+
+Advertisement / Promotions 🔖 \nWe are Here Lets Go"""
     
     GFILTER_TXT = """
 <b>Wᴇʟᴄᴏᴍᴇ ᴛᴏ Gʟᴏʙᴀʟ Fɪʟᴛᴇʀs. Gʟᴏʙᴀʟ Fɪʟᴛᴇʀs ᴀʀᴇ ᴛʜᴇ ғɪʟᴛᴇʀs sᴇᴛ ʙʏ ʙᴏᴛ ᴀᴅᴍɪɴs ᴡʜɪᴄʜ ᴡɪʟʟ ᴡᴏʀᴋ ᴏɴ ᴀʟʟ ɢʀᴏᴜᴘs.</b>
