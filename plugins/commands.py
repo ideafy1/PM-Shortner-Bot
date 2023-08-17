@@ -25,7 +25,7 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('🔎 Search', url=GRP_LNK)
                 ],[
-                    InlineKeyboardButton('🏷 Place Ad', url="https://telegram.me/yedekho_faq"),
+                    InlineKeyboardButton('🏷 Place Ad', callback_data='place_ad'),
                     InlineKeyboardButton('💛 Donate', callback_data='shivam')
                 ],[
                     InlineKeyboardButton('ℹ️ Help', callback_data='help'),
@@ -48,7 +48,7 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('🔎 Search', url=GRP_LNK)
                 ],[
-                    InlineKeyboardButton('🏷 Place Ad', url="https://telegram.me/yedekho_faq"),
+                    InlineKeyboardButton('🏷 Place Ad', callback_data='place_ad'),
                     InlineKeyboardButton('💛 Donate', callback_data='shivam')
                 ],[
                     InlineKeyboardButton('ℹ️ Help', callback_data='help'),
@@ -96,7 +96,7 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('🔎 Search', url=GRP_LNK)
                 ],[
-                    InlineKeyboardButton('🏷 Place Ad', url="https://telegram.me/yedekho_faq"),
+                    InlineKeyboardButton('🏷 Place Ad', callback_data='place_ad'),
                     InlineKeyboardButton('💛 Donate', callback_data='shivam')
                 ],[
                     InlineKeyboardButton('ℹ️ Help', callback_data='help'),
