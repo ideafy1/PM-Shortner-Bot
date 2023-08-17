@@ -1529,7 +1529,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "place_ad":
         buttons = [[
-            InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='manuelfilter')
+            InlineKeyboardButton('⟲ Rᴇғʀᴇsʜ', url="https://bit.ly/yedekho-donate-99rs")
+        ],[
+            InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='help')
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
