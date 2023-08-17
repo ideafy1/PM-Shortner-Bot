@@ -225,6 +225,9 @@ Could you just 𝖿𝗎𝖾𝗅 me 𝗎𝗉
 𝖺𝗇𝖽 𝗌𝗎𝗉𝗉𝗈𝗋𝗍 my 𝗌𝖾𝗋𝗏𝖾𝗋 𝖼𝗈𝗌𝗍𝗌 🔥😢
 
 Any amount m𝖺𝗄𝖾s 𝖺 𝘥𝘪𝘧𝘧𝘦𝘳𝘦𝘯𝘤𝘦🤌🏻"""
+
+    place_ad = """
+<b>Promotions / Advertisement"""
     
     GFILTER_TXT = """
 <b>Wᴇʟᴄᴏᴍᴇ ᴛᴏ Gʟᴏʙᴀʟ Fɪʟᴛᴇʀs. Gʟᴏʙᴀʟ Fɪʟᴛᴇʀs ᴀʀᴇ ᴛʜᴇ ғɪʟᴛᴇʀs sᴇᴛ ʙʏ ʙᴏᴛ ᴀᴅᴍɪɴs ᴡʜɪᴄʜ ᴡɪʟʟ ᴡᴏʀᴋ ᴏɴ ᴀʟʟ ɢʀᴏᴜᴘs.</b>
