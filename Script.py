@@ -147,9 +147,9 @@ Nᴀᴍᴇ - {}"""
 
     MELCOW_ENG = """<b>Hᴇʟʟᴏ {} 😍, Aɴᴅ Wᴇʟᴄᴏᴍᴇ Tᴏ {} Gʀᴏᴜᴘ ❤️</b>"""
 
-    SHORTLINK_INFO = """Something magical 😄 \nis waiting for you, Explore 🤩
+    SHORTLINK_INFO = """𝘚𝘰𝘮𝘦𝘵𝘩𝘪𝘯𝘨 𝘮𝘢𝘨𝘪𝘤𝘢𝘭 😄 /n𝘪𝘴 𝘸𝘢𝘪𝘵𝘪𝘯𝘨 𝘧𝘰𝘳 𝘺𝘰𝘶, 𝘌𝘹𝘱𝘭𝘰𝘳𝘦 🤩
 
-What is YeDekho Verifieds??⭐"""
+<b>𝘞𝘩𝘢𝘵 𝘪𝘴 𝘠𝘦𝘋𝘦𝘬𝘩𝘰 𝘝𝘦𝘳𝘪𝘧𝘪𝘦𝘥𝘴??⭐</b>"""
 
     REQINFO = """
 ⚠ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ⚠
