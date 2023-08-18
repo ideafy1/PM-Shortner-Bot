@@ -1433,14 +1433,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton("Downloading & Playing 🎯", url="https://t.me/yedekho_faq")
         ], [
-            InlineKeyboardButton('FILTERS', callback_data='filters'),
-            InlineKeyboardButton('FILE STORE', callback_data='store_file')
+            InlineKeyboardButton('Filters', callback_data='filters'),
+            InlineKeyboardButton('File Store', callback_data='store_file')
         ], [
-            InlineKeyboardButton('CONNECTION', callback_data='coct'),
-            InlineKeyboardButton('EXTRAS', callback_data='extra')
+            InlineKeyboardButton('Connection', callback_data='coct'),
+            InlineKeyboardButton('Extras', callback_data='extra')
         ], [
-            InlineKeyboardButton('BACK', callback_data='start'),
-            InlineKeyboardButton('STATUS', callback_data='stats')
+            InlineKeyboardButton('Home', callback_data='start'),
+            InlineKeyboardButton('Status', callback_data='stats')
         ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1661,7 +1661,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode=enums.ParseMode.HTML
         )
     elif query.data == "rfrsh":
-        await query.answer("Fetching MongoDb DataBase")
+        await query.answer("Connecting to gods")
         buttons = [[
             InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='help'),
             InlineKeyboardButton('⟲ Rᴇғʀᴇsʜ', callback_data='rfrsh')
@@ -1686,14 +1686,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "shortlink_info":
             btn = [[
-                    InlineKeyboardButton("◀️ Back", url="https://t.me/yedekho_verified/2")
-                  ],[
-                    InlineKeyboardButton('🙄 Thanks, I will continue with Ads', callback_data="start")
-                   ]]
+                    InlineKeyboardButton("Get Verified ⭐", url="https://t.me/yedekho_verified/2")
+            ],[
+                InlineKeyboardButton('◀️ Thanks, I will continue with Ads', callback_data="start")
+            ]]
                 await client.edit_message_media(
                 query.message.chat.id, 
                 query.message.id, 
-                InputMediaPhoto(random.choice(PICS))
+                InputMediaPhoto(random.choice(VERIFIED))
             )
             reply_markup = InlineKeyboardMarkup(btn)
             await query.message.edit_text(
@@ -1701,7 +1701,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML
             )
-
     elif query.data.startswith("setgs"):
         ident, set_type, status, grp_id = query.data.split("#")
         grpid = await active_connection(str(query.from_user.id))
