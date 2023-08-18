@@ -148,7 +148,7 @@ Nᴀᴍᴇ - {}"""
     MELCOW_ENG = """<b>Hᴇʟʟᴏ {} 😍, Aɴᴅ Wᴇʟᴄᴏᴍᴇ Tᴏ {} Gʀᴏᴜᴘ ❤️</b>"""
 
     SHORTLINK_INFO = """
-href=https://t.me/yedekho_verified> FRUSTRATED OF ADS 😤🤧 </a>
+<a href='https://t.me/yedekho_verified'>FRUSTRATED OF ADS 😤🤧</a>
 
 ➫ I know its too frustrating 😖 to watch 𝘈𝘋𝘚 <b>again and again</b>
 
