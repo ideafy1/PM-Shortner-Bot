@@ -1531,7 +1531,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('Lets Begin ⚡🔥', url="https://yedekhoads.carrd.co")
         ],[
-            InlineKeyboardButton('I will leave this opportunity 😞', callback_data='help')
+            InlineKeyboardButton('I will leave this opportunity 😞', callback_data='start')
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
