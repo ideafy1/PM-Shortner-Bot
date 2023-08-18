@@ -1690,7 +1690,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
                 InlineKeyboardButton('◀️ Thanks, I will continue with Ads', callback_data="start")
             ]]
-                await client.edit_message_media(
+        await client.edit_message_media(
                 query.message.chat.id, 
                 query.message.id, 
                 InputMediaPhoto(random.choice(VERIFIED))
