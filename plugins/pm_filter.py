@@ -1376,7 +1376,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('ℹ️ Help', callback_data='help'),
                     InlineKeyboardButton('🔥 Begin', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('⚡🤝🏻 Get Verified', callback_data="shortlink_info")
+                    InlineKeyboardButton('⚡ Get Verified', callback_data="shortlink_info")
                   ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1623,14 +1623,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "shortlink_info":
         buttons = [[
-            InlineKeyboardButton('Fixed ', url="https://t.me/yedekho_verified/2")
+            InlineKeyboardButton('👋🙈 Bye - Bye Ads', url="https://t.me/yedekho_verified/2")
         ],[
-            InlineKeyboardButton('🙄 Thanks, I will continue with Ads', callback_data='admin')
+            InlineKeyboardButton('🙄 I will keep watching Ads', callback_data='start')
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
-            InputMediaPhoto(random.choice(PICS))
+            InputMediaPhoto(random.choice(VERIFIED))
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
