@@ -31,7 +31,7 @@ async def start(client, message):
                     InlineKeyboardButton('ℹ️ Help', callback_data='help'),
                     InlineKeyboardButton('🔥 Begin', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('⚡🤝🏻 Get Verified', callback_data="shortlink_info")
+                    InlineKeyboardButton('✅ Get Verified', callback_data="shortlink_info")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.START_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup, disable_web_page_preview=True)
@@ -54,7 +54,7 @@ async def start(client, message):
                     InlineKeyboardButton('ℹ️ Help', callback_data='help'),
                     InlineKeyboardButton('🔥 Begin', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('⚡🤝🏻 Get Verified', callback_data="shortlink_info")
+                    InlineKeyboardButton('✅ Get Verified', callback_data="shortlink_info")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -102,7 +102,7 @@ async def start(client, message):
                     InlineKeyboardButton('ℹ️ Help', callback_data='help'),
                     InlineKeyboardButton('🔥 Begin', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('⚡🤝🏻 Get Verified', callback_data="shortlink_info")
+                    InlineKeyboardButton('✅ Get Verified', callback_data="shortlink_info")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)      
         await message.reply_photo(
