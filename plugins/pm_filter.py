@@ -1376,7 +1376,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('ℹ️ Help', callback_data='help'),
                     InlineKeyboardButton('🔥 Begin', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('⚡ Get Verified', callback_data="shortlink_info")
+                    InlineKeyboardButton('✅ Get Verified', callback_data="shortlink_info")
                   ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
