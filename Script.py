@@ -66,9 +66,9 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 • /disconnect  - <code>ᴅɪꜱᴄᴏɴɴᴇᴄᴛ ꜰʀᴏᴍ ᴀ ᴄʜᴀᴛ</code®ꜱ</code>"""
 
     EXTRAMOD_TXT = """Your <b>Time is precious ✨
-Stop ~~Ads~~! & avoid nonsense !! 
+Stop Ads! & avoid nonsense !! 
 
-_get verified_ on <b>@yedekho</b>✅"""
+Get verified on <b>@yedekho</b> ✅ \nYour New Superpower"""
 
     ADMIN_TXT = """HELP 💪🏻 ADMIN MODS
 <b>ɴᴏᴛᴇ:</b>
