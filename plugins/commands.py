@@ -154,7 +154,7 @@ async def start(client, message):
                         [
                          [
                           InlineKeyboardButton('🔎 Search Again', url="https://t.me/yedekho"),
-                          InlineKeyboardButton('🌡️ Any Issues', url="https://t.me/yedekho_faq)
+                          InlineKeyboardButton('🌡️ Any Issues', url="https://t.me/yedekho_faq")
                        ],[
                           InlineKeyboardButton("🔥 What to Watch", url="https://t.me/yedekho_in")
                          ]
@@ -301,7 +301,7 @@ async def start(client, message):
     elif data.startswith("all"):
         files = temp.GETALL.get(file_id)
         if not files:
-            return await message.reply('<b><i>ayee, i dont Remember that 🤔</b></i>')
+            return await message.reply('<b><i>aye i dont Remember 🤔</b></i>')
         filesarr = []
         for file in files:
             file_id = file.file_id
@@ -451,10 +451,10 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
              [
-              InlineKeyboardButton('🫨ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-              InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+              InlineKeyboardButton('🔎 Search Agin', url="https://t.me/yedekho"),
+              InlineKeyboardButton('🌡️Have Issues', url="https//t.me/yedekho_faq")
            ],[
-              InlineKeyboardButton("ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ", url="https://t.me/+4nzja42ELQwzOWVl")
+              InlineKeyboardButton("🔥 What to Watch", url="https://t.me/yedekho_in")
              ]
             ]
         )
