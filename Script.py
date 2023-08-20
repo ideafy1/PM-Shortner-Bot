@@ -65,10 +65,10 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 • /connect  - <code>ᴄᴏɴɴᴇᴄᴛ ᴀ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ᴄʜᴀᴛ ᴛᴏ ʏᴏᴜʀ ᴘᴍ</code>
 • /disconnect  - <code>ᴅɪꜱᴄᴏɴɴᴇᴄᴛ ꜰʀᴏᴍ ᴀ ᴄʜᴀᴛ</code®ꜱ</code>"""
 
-    EXTRAMOD_TXT = """Your <b>Time is precious ✨
-Stop Ads! & avoid nonsense !! 
+    EXTRAMOD_TXT = """Your <b>Time<b/> is <i>precious</i> ✨
+Stop <s>Ads</s>! & avoid nonsense !! 
 
-Get verified on <b>@yedekho</b> ✅ \nYour New Superpower"""
+<b>Get verified<b/> on <b>@yedekho</b> ✅ \n<b><i>✨ Your New Superpower</b></i>"""
 
     ADMIN_TXT = """HELP 💪🏻 ADMIN MODS
 <b>ɴᴏᴛᴇ:</b>
