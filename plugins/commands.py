@@ -73,7 +73,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "👇🏻 😚 UPDATES 🫶🏻👇🏻", url=invite_link.invite_link
+                    "🫶🏻 UPDATES 🫶🏻", url=invite_link.invite_link
                 )
             ]
         ]
@@ -82,9 +82,9 @@ async def start(client, message):
             try:
                 kk, file_id = message.command[1].split("_", 1)
                 pre = 'checksubp' if kk == 'filep' else 'checksub' 
-                btn.append([InlineKeyboardButton("↻ Tʀʏ Aɢᴀɪɴ", callback_data=f"{pre}#{file_id}")])
+                btn.append([InlineKeyboardButton("Try again", callback_data=f"{pre}#{file_id}")])
             except (IndexError, ValueError):
-                btn.append([InlineKeyboardButton("↻ Tʀʏ Aɢᴀɪɴ", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
+                btn.append([InlineKeyboardButton("Try again", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
             text="**You are not in our channel given below so you don't get the movie file...\n\nIf you want the movie file, click on the '🍿ᴊᴏɪɴ ᴏᴜʀ ʙᴀᴄᴋ-ᴜᴘ ᴄʜᴀɴɴᴇʟ🍿' button below and join our back-up channel, then click on the '🔄 Try Again' button below...\n\nThen you will get the movie files...**",
@@ -153,10 +153,10 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton('🔎 Search', url=f'https://t.me/{SUPPORT_CHAT}'),
-                          InlineKeyboardButton('😎 Updates', url=CHNL_LNK)
+                          InlineKeyboardButton('🔎 Search Again', url="https://t.me/yedekho"),
+                          InlineKeyboardButton('🌡️ Any Issues', url="https://t.me/yedekho_faq)
                        ],[
-                          InlineKeyboardButton("↺ 😌 Content Request", url="https://t.me/yedekho_req")
+                          InlineKeyboardButton("🔥 What to Watch", url="https://t.me/yedekho_in")
                          ]
                         ]
                     )
@@ -172,10 +172,10 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton('🔎 Search', url=f'https://t.me/{SUPPORT_CHAT}'),
-                          InlineKeyboardButton('😎 Updates', url=CHNL_LNK)
+                          InlineKeyboardButton('🔎 Search Again', url="https://t.me/yedekho"),
+                          InlineKeyboardButton('🌡️ Any Issues', url="https://t.me/yedekho_faq")
                        ],[
-                          InlineKeyboardButton("↺ 😌 Content Request", url="https://t.me/yedekho_req")
+                          InlineKeyboardButton("🔥 What to Watch", url="https://t.me/yedekho_in")
                          ]
                         ]
                     )
@@ -266,7 +266,7 @@ async def start(client, message):
         k = await client.send_message(chat_id=message.from_user.id,text=f"<b>Get All Files in a Single Click!!!\n\n📂 ʟɪɴᴋ ➠ : {g}\n\n<i>Note: This message is deleted in 5 mins to avoid copyrights. Save the link to Somewhere else</i></b>", reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton('DOWNLOAD NOW ↧', url=g)
+                        InlineKeyboardButton('DOWNLOAD NOW ⬇️', url=g)
                     ], [
                         InlineKeyboardButton('HOW TO DOWNLOAD 🤔💨', url=await get_tutorial(chat_id))
                     ]
@@ -274,7 +274,7 @@ async def start(client, message):
             )
         )
         await asyncio.sleep(300)
-        await k.edit("<b>Done 🗑 It is Gone ! ⛔</b>")
+        await k.edit("<b>Told you 🗑 Its Gone ⛔ Request again !</b>")
         return
         
     
