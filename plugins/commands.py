@@ -274,7 +274,7 @@ async def start(client, message):
             )
         )
         await asyncio.sleep(300)
-        await k.edit("<b>Told you 🗑 Its Gone ⛔ Request again !</b>")
+        await k.edit("<b>Told you 🗑 <i>Its Gone</i> ⛔ Request again 👉🏻 <a href=https://t.me/yedekho>Click here</a></b>")
         return
         
     
@@ -295,7 +295,7 @@ async def start(client, message):
             )
         )
         await asyncio.sleep(600)
-        await k.edit("<b>Done 🗑 It is Gone ! ⛔</b>")
+        await k.edit("<b>Told you 🗑 <i>Its Gone</i> ⛔ Request again 👉🏻 <a href=https://t.me/yedekho>Click here</a></b></b>")
         return
         
     elif data.startswith("all"):
@@ -336,16 +336,16 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                      InlineKeyboardButton('🫨ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-                      InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                      InlineKeyboardButton('🔎 Search Again', url="https://t.me/yedekho"),
+                      InlineKeyboardButton('🌡️ Have Issues', url="https://t.me/yedekho_faq")
                    ],[
-                      InlineKeyboardButton("ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ", url="https://t.me/+4nzja42ELQwzOWVl")
+                      InlineKeyboardButton("🔥 What to Watch", url="https://t.me/yedekho_in")
                      ]
                     ]
                 )
             )
             filesarr.append(msg)
-        await k.edit_text("<b>Your All Files/Videos is successfully deleted!!!</b>")
+        await k.edit_text("<b>All your Files/Videos are GONEEEE 🗿!!!</b>")
         return    
         
     elif data.startswith("files"):
@@ -362,9 +362,9 @@ async def start(client, message):
             k = await client.send_message(chat_id=message.from_user.id,text=f"<b>📕Nᴀᴍᴇ ➠ : <code>{files.file_name}</code> \n\n🔗Sɪᴢᴇ ➠ : {get_size(files.file_size)}\n\n📂Fɪʟᴇ ʟɪɴᴋ ➠ : {g}\n\n<i>Note: ⚠️ ᴛʜɪs ᴍᴇssᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏ ᴅᴇʟᴇᴛᴇᴅ ᴀғᴛᴇʀ 𝟷𝟶 ᴍɪɴᴜᴛᴇs.</i></b>", reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton('📂 ᴍᴏᴠɪᴇ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ 📂', url=g)
+                            InlineKeyboardButton('DOWNLOAD NOW ↧', url=g)
                         ], [
-                            InlineKeyboardButton('🤔 Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ 🤔', url=await get_tutorial(chat_id))
+                            InlineKeyboardButton('HOW TO DOWNLOAD 🤔💨', url=await get_tutorial(chat_id))
                         ]
                     ]
                 )
@@ -394,10 +394,10 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                      InlineKeyboardButton('🫨ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-                      InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                      InlineKeyboardButton('🔎 Search Agin', url='https://t.me/yedekho'),
+                      InlineKeyboardButton('🌡️Have Issues', url='https://t.me/yedekho_faq')
                    ],[
-                      InlineKeyboardButton("ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ", url="https://t.me/+4nzja42ELQwzOWVl")
+                      InlineKeyboardButton("🔥 What to Watch", url="https://t.me/yedekho_in")
                      ]
                     ]
                 )
