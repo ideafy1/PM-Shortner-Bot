@@ -236,10 +236,10 @@ async def next_page(bot, query):
     time_difference = timedelta(hours=cur_time.hour, minutes=cur_time.minute, seconds=(cur_time.second+(cur_time.microsecond/1000000))) - timedelta(hours=curr_time.hour, minutes=curr_time.minute, seconds=(curr_time.second+(curr_time.microsecond/1000000)))
     remaining_seconds = "{:.2f}".format(time_difference.total_seconds())
     if settings["button"]:
-        cap = f"<b>Tʜᴇ Rᴇꜱᴜʟᴛꜱ Fᴏʀ ☞ {search}\n\nRᴇǫᴜᴇsᴛᴇᴅ Bʏ ☞ {query.from_user.mention}\n\nʀᴇsᴜʟᴛ sʜᴏᴡ ɪɴ ☞ {remaining_seconds} sᴇᴄᴏɴᴅs\n\nᴘᴏᴡᴇʀᴇᴅ ʙʏ ☞ : {query.message.chat.title} \n\n⚠️ ᴀꜰᴛᴇʀ 5 ᴍɪɴᴜᴛᴇꜱ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇʟᴇᴛᴇᴅ 🗑️\n\n</b>"
+        cap = f"<b>The Search 🔍 Results for 👉🏻 {search}\n\n💛 Requested By : {query.from_user.mention}\n\n🏃 Result Shown in just: {remaining_seconds} seconds\n\n⭐ Powered by : {query.message.chat.title} \n\n⚠️ Note : Your query will be deleted soon 🗑️\n\n</b>"
     else:
         # cap = f"<b>Hᴇʏ {query.from_user.mention}, Hᴇʀᴇ ɪs ᴛʜᴇ ʀᴇsᴜʟᴛ ғᴏʀ ʏᴏᴜʀ ᴏ̨ᴜᴇʀʏ {search} \n\n</b>"
-        cap = f"<b>Hᴇʏ {query.from_user.mention}, Fᴏᴜɴᴅ {total} Rᴇsᴜʟᴛs ғᴏʀ Yᴏᴜʀ Qᴜᴇʀʏ {search}\n\n</b>"
+        cap = f"<b>Hey {query.from_user.mention}, Found {total} search results for your query {search}\n\n</b>"
         for file in files:
             cap += f"<b>📁 <a href='https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}'>[{get_size(file.file_size)}] {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file.file_name.split()))}\n\n</a></b>"
 
@@ -289,7 +289,7 @@ async def languages_cb_handler(client: Client, query: CallbackQuery):
     try:
         if int(query.from_user.id) not in [query.message.reply_to_message.from_user.id, 0]:
             return await query.answer(
-                f"⚠️ ʜᴇʟʟᴏ{query.from_user.first_name},\nᴛʜɪꜱ ɪꜱ ɴᴏᴛ ʏᴏᴜʀ ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ,\nʀᴇQᴜᴇꜱᴛ ʏᴏᴜʀ'ꜱ...",
+                f"Sorry 😐 {query.from_user.first_name},\nThis is not your request,\nRequest Again, Please 🙏🏻...",
                 show_alert=True,
             )
     except:
@@ -325,7 +325,7 @@ async def languages_cb_handler(client: Client, query: CallbackQuery):
     )
     req = query.from_user.id
     offset = 0
-    btn.append([InlineKeyboardButton(text="↭ ʙᴀᴄᴋ ᴛᴏ ꜰɪʟᴇs ​↭", callback_data=f"fl#homepage#{key}")])
+    btn.append([InlineKeyboardButton(text="Back to Search Results", callback_data=f"fl#homepage#{key}")])
 
     await query.edit_message_reply_markup(InlineKeyboardMarkup(btn))
     
@@ -346,7 +346,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
     try:
         if int(req) not in [query.message.reply_to_message.from_user.id, 0]:
             return await query.answer(
-                f"⚠️ ʜᴇʟʟᴏ{query.from_user.first_name},\nᴛʜɪꜱ ɪꜱ ɴᴏᴛ ʏᴏᴜʀ ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ,\nʀᴇQᴜᴇꜱᴛ ʏᴏᴜʀ'ꜱ...",
+                f"Sorry 😐 {query.from_user.first_name},\nThis is not your request,\nRequest Again, Please 🙏🏻...",
                 show_alert=True,
             )
     except:
@@ -359,7 +359,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
     files, offset, total_results = await get_search_results(chat_id, search, offset=0, filter=True)
     # files = [file for file in files if re.search(lang, file.file_name, re.IGNORECASE)]
     if not files:
-        await query.answer("🚫 𝗡𝗼 𝗙𝗶𝗹𝗲 𝗪𝗲𝗿𝗲 𝗙𝗼𝘂𝗻𝗱 🚫", show_alert=1)
+        await query.answer("🚫 No Results Found 🚫", show_alert=1)
         return
     temp.GETALL[key] = files
     settings = await get_settings(message.chat.id)
@@ -397,18 +397,18 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'Sᴇʟᴇᴄᴛ ➢', 'select'),
-                    InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}"),
-                    InlineKeyboardButton("Sᴇᴀsᴏɴs",  callback_data=f"seasons#{key}")
+                    InlineKeyboardButton(f'Select 👉🏻', 'select'),
+                    InlineKeyboardButton("Language", callback_data=f"languages#{key}"),
+                    InlineKeyboardButton("Season",  callback_data=f"seasons#{key}")
                 ]
             )
 
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'Sᴇʟᴇᴄᴛ ➢', 'select'),
-                    InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}"),
-                    InlineKeyboardButton("Sᴇᴀsᴏɴs", callback_data=f"seasons#{key}")
+                    InlineKeyboardButton(f'Select 👉🏻', 'select'),
+                    InlineKeyboardButton("Language", callback_data=f"languages#{key}"),
+                    InlineKeyboardButton("Season", callback_data=f"seasons#{key}")
                 ]
             )
                 
@@ -416,9 +416,9 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
         await save_group_settings(query.message.chat.id, 'auto_delete', True)
         btn.insert(0, 
             [
-                InlineKeyboardButton(f'Sᴇʟᴇᴄᴛ ➢', 'select'),
-                InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}"),
-                InlineKeyboardButton("Sᴇᴀsᴏɴs", callback_data=f"seasons#{key}")
+                InlineKeyboardButton(f'Select 👉🏻', 'select'),
+                InlineKeyboardButton("Language", callback_data=f"languages#{key}"),
+                InlineKeyboardButton("Season", callback_data=f"seasons#{key}")
             ]
         )
 
@@ -429,25 +429,25 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
         try:
             if settings['max_btn']:
                 btn.append(
-                    [InlineKeyboardButton("𝐏𝐀𝐆𝐄", callback_data="pages"), InlineKeyboardButton(text=f"1/{math.ceil(int(total_results)/10)}",callback_data="pages"), InlineKeyboardButton(text="𝐍𝐄𝐗𝐓 ➪",callback_data=f"next_{req}_{key}_{offset}")]
+                    [InlineKeyboardButton("Results", callback_data="pages"), InlineKeyboardButton(text=f"1/{math.ceil(int(total_results)/10)}",callback_data="pages"), InlineKeyboardButton(text="𝐍𝐄𝐗𝐓 ➪",callback_data=f"next_{req}_{key}_{offset}")]
                 )
     
             else:
                 btn.append(
-                    [InlineKeyboardButton("𝐏𝐀𝐆𝐄", callback_data="pages"), InlineKeyboardButton(text=f"1/{math.ceil(int(total_results)/int(MAX_B_TN))}",callback_data="pages"), InlineKeyboardButton(text="𝐍𝐄𝐗𝐓 ➪",callback_data=f"next_{req}_{key}_{offset}")]
+                    [InlineKeyboardButton("Results", callback_data="pages"), InlineKeyboardButton(text=f"1/{math.ceil(int(total_results)/int(MAX_B_TN))}",callback_data="pages"), InlineKeyboardButton(text="𝐍𝐄𝐗𝐓 ➪",callback_data=f"next_{req}_{key}_{offset}")]
                 )
         except KeyError:
             await save_group_settings(query.message.chat.id, 'max_btn', True)
             btn.append(
-                [InlineKeyboardButton("𝐏𝐀𝐆𝐄", callback_data="pages"), InlineKeyboardButton(text=f"1/{math.ceil(int(total_results)/10)}",callback_data="pages"), InlineKeyboardButton(text="𝐍𝐄𝐗𝐓 ➪",callback_data=f"next_{req}_{key}_{offset}")]
+                [InlineKeyboardButton("Results", callback_data="pages"), InlineKeyboardButton(text=f"1/{math.ceil(int(total_results)/10)}",callback_data="pages"), InlineKeyboardButton(text="𝐍𝐄𝐗𝐓 ➪",callback_data=f"next_{req}_{key}_{offset}")]
             )
     else:
         btn.append(
-            [InlineKeyboardButton(text="𝐍𝐎 𝐌𝐎𝐑𝐄 𝐏𝐀𝐆𝐄𝐒 𝐀𝐕𝐀𝐈𝐋𝐀𝐁𝐋𝐄",callback_data="pages")]
+            [InlineKeyboardButton(text="Thats All , Nothing is Left ◀️",callback_data="pages")]
         )
     # if ENABLE_SHORTLINK == True:
     btn.insert(0, [
-        InlineKeyboardButton("🎁 ɢᴇᴛ ᴅɪʀᴇᴄᴛ ᴍᴏᴠɪᴇ 🎁", url=f"https://telegram.me/{temp.U_NAME}")
+        InlineKeyboardButton("🤔 How to download", url=f"https://telegram.me/yedekho_faq/25")
     ])
     # else:
     #     btn.insert(0, [
@@ -482,7 +482,7 @@ async def seasons_cb_handler(client: Client, query: CallbackQuery):
     try:
         if int(query.from_user.id) not in [query.message.reply_to_message.from_user.id, 0]:
             return await query.answer(
-                f"⚠️ ʜᴇʟʟᴏ{query.from_user.first_name},\nᴛʜɪꜱ ɪꜱ ɴᴏᴛ ʏᴏᴜʀ ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ,\nʀᴇQᴜᴇꜱᴛ ʏᴏᴜʀ'ꜱ...",
+                f"Sorry 😐 {query.from_user.first_name},\nThis is not your request,\nRequest Again, Please 🙏🏻...",
                 show_alert=True,
             )
     except:
@@ -582,7 +582,7 @@ async def filter_seasons_cb_handler(client: Client, query: CallbackQuery):
         files.extend(files2)
         
     if not files:
-        await query.answer("🚫 𝗡𝗼 𝗙𝗶𝗹𝗲 𝗪𝗲𝗿𝗲 𝗙𝗼𝘂𝗻𝗱 🚫", show_alert=1)
+        await query.answer("🚫 No Results Found🚫", show_alert=1)
         return
     temp.GETALL[key] = files
     settings = await get_settings(message.chat.id)
@@ -911,10 +911,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
                         reply_markup=InlineKeyboardMarkup(
                             [
                              [
-                              InlineKeyboardButton('🫨ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=SUPPORT_CHAT),
-                              InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                              InlineKeyboardButton('🔍 Search Engine', url="https://t.me/yedekho"),
+                              InlineKeyboardButton('🌡️ Any issues, url="https://t.me/yedekho_faq/25")
                             ],[
-                              InlineKeyboardButton("😇ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ😇", url="https://t.me/+4nzja42ELQwzOWVl")
+                              InlineKeyboardButton("💛 Recommendations ", url="https://t.me/yedekho_in")
                              ]
                             ]
                         )
