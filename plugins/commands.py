@@ -73,7 +73,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "Join YeDekho Specials ⭐", url=invite_link.invite_link
+                    "👉🏻 Join YeDekho Specials ⭐", url=invite_link.invite_link
                 )
             ]
         ]
@@ -87,7 +87,7 @@ async def start(client, message):
                 btn.append([InlineKeyboardButton("⚠️ Try again", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
-            text="**Please join the YeDekho Specials 💛...\n\nYour Complete content recommendations platform\n Join and Click '⚠️Try Again'\n\n And Enjoy 🤩🤌🏻...**",
+            text="Please join the YeDekho Specials 💛...\n\n<i>Your Complete content recommendations platform</i>\nJoin and Click '⚠️Try Again'\nEnjoy 🤩🤌🏻...",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode=enums.ParseMode.MARKDOWN
             )
