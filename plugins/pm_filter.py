@@ -77,7 +77,7 @@ async def pm_text(bot, message):
     if user_id in ADMINS: return # ignore admins
     await message.reply_text(
          text=f"<b>ʜᴇʏ {user} 😍 ,\n\nSorry ℹ️ We currently do not support searching in personal message, Hop into the<a href=https://t.me/yedekho>Search Here 🔎</a>If you have any Issues, Get Help 🤗</b>",   
-         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 Click here"", url=f"https://t.me/yedekho_faq/25")]])
+         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 Click here", url=f"https://t.me/yedekho_faq/25")]])
     )
     await bot.send_message(
         chat_id=LOG_CHANNEL,
