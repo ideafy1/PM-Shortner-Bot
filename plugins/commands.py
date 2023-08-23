@@ -154,9 +154,9 @@ async def start(client, message):
                         [
                          [
                           InlineKeyboardButton('🔎 Search Again', url="https://t.me/yedekho"),
-                          InlineKeyboardButton('🌡️ Any Issues', url=CHNL_LNK)
+                          InlineKeyboardButton('🌡️ Any Issues', url="https://t.me/yedekho_faq/25")
                        ],[
-                          InlineKeyboardButton("🔥 What to Watch", url="https://t.me/+4nzja42ELQwzOWVl")
+                          InlineKeyboardButton("🔥 What to Watch", url="https://t.me/yedekho_in")
                          ]
                         ]
                     )
@@ -173,9 +173,9 @@ async def start(client, message):
                         [
                          [
                           InlineKeyboardButton('🔎 Search Again', url="https://t.me/yedekho"),
-                          InlineKeyboardButton('🌡️ Any Issues', url=CHNL_LNK)
+                          InlineKeyboardButton('🌡️ Any Issues', url="https://t.me/yedekho_faq/25")
                        ],[
-                          InlineKeyboardButton("🔥 What to Watch", url="https://t.me/+4nzja42ELQwzOWVl")
+                          InlineKeyboardButton("🔥 What to Watch", url="https://t.me/yedekho_in")
                          ]
                         ]
                     )
@@ -337,9 +337,9 @@ async def start(client, message):
                     [
                      [
                       InlineKeyboardButton('🔎 Search Again', url="https://t.me/yedekho"),
-                      InlineKeyboardButton('🌡️ Any Issues', url=CHNL_LNK)
+                      InlineKeyboardButton('🌡️ Any Issues', url="https://t.me/yedekho_faq/25")
                    ],[
-                      InlineKeyboardButton("🔥 What to Watch", url="https://t.me/+4nzja42ELQwzOWVl")
+                      InlineKeyboardButton("🔥 What to Watch", url="https://t.me/yedekho_in")
                      ]
                     ]
                 )
@@ -395,9 +395,9 @@ async def start(client, message):
                     [
                      [
                       InlineKeyboardButton('🔎 Search Again', url="https://t.me/yedekho"),
-                      InlineKeyboardButton('🌡️ Any Issues', url=CHNL_LNK)
+                      InlineKeyboardButton('🌡️ Any Issues', url="https://t.me/yedekho_faq/25")
                    ],[
-                      InlineKeyboardButton("🔥 What to Watch", url="https://t.me/+4nzja42ELQwzOWVl")
+                      InlineKeyboardButton("🔥 What to Watch", url="https://t.me/yedekho_in")
                      ]
                     ]
                 )
@@ -452,9 +452,9 @@ async def start(client, message):
             [
              [
               InlineKeyboardButton('🔎 Search Again', url="https://t.me/yedekho"),
-              InlineKeyboardButton('🌡️ Any Issues', url=CHNL_LNK)
+              InlineKeyboardButton('🌡️ Any Issues', url="https://t.me/yedekho_faq/25")
            ],[
-              InlineKeyboardButton("🔥 What to Watch", url="https://t.me/+4nzja42ELQwzOWVl")
+              InlineKeyboardButton("🔥 What to Watch", url="https://t.me/yedekho_in")
              ]
             ]
         )
