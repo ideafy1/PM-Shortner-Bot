@@ -73,7 +73,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "🔻 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🔻", url=invite_link.invite_link
+                    "Join YeDekho Specials ⭐", url=invite_link.invite_link
                 )
             ]
         ]
@@ -82,12 +82,12 @@ async def start(client, message):
             try:
                 kk, file_id = message.command[1].split("_", 1)
                 pre = 'checksubp' if kk == 'filep' else 'checksub' 
-                btn.append([InlineKeyboardButton("↻ Tʀʏ Aɢᴀɪɴ", callback_data=f"{pre}#{file_id}")])
+                btn.append([InlineKeyboardButton("⚠️ Try again", callback_data=f"{pre}#{file_id}")])
             except (IndexError, ValueError):
-                btn.append([InlineKeyboardButton("↻ Tʀʏ Aɢᴀɪɴ", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
+                btn.append([InlineKeyboardButton("⚠️ Try again", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
-            text="**You are not in our channel given below so you don't get the movie file...\n\nIf you want the movie file, click on the '🍿ᴊᴏɪɴ ᴏᴜʀ ʙᴀᴄᴋ-ᴜᴘ ᴄʜᴀɴɴᴇʟ🍿' button below and join our back-up channel, then click on the '🔄 Try Again' button below...\n\nThen you will get the movie files...**",
+            text="**Please join the YeDekho Specials 💛...\n\nYour Complete content recommendations platform\n Join and Click '⚠️Try Again'\n\n And Enjoy 🤩🤌🏻...**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode=enums.ParseMode.MARKDOWN
             )
@@ -249,7 +249,7 @@ async def start(client, message):
             await verify_user(client, userid, token)
         else:
             return await message.reply_text(
-                text="<b>Invalid link or Expired link !</b>",
+                text="<b>Invalid link or Expired link ! Try Again @yedekho</b>",
                 protect_content=True
             )
     if data.startswith("sendfiles"):
@@ -274,7 +274,7 @@ async def start(client, message):
             )
         )
         await asyncio.sleep(300)
-        await k.edit("<b>Your message is successfully deleted!!!</b>")
+        await k.edit("<b>Told you 🗑 <i>Its Gone</i> ⛔ Request again 👉🏻 @yedekho</b>")
         return
         
     
@@ -284,7 +284,7 @@ async def start(client, message):
         files_ = await get_file_details(file_id)
         files = files_[0]
         g = await get_shortlink(chat_id, f"https://telegram.me/{temp.U_NAME}?start=file_{file_id}")
-        k = await client.send_message(chat_id=user,text=f"<b>📕Nᴀᴍᴇ ➠ : <code>{files.file_name}</code> \n\n🔗Sɪᴢᴇ ➠ : {get_size(files.file_size)}\n\n📂Fɪʟᴇ ʟɪɴᴋ ➠ : {g}\n\n<i>Note: ⚠️ ᴛʜɪs ᴍᴇssᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏ ᴅᴇʟᴇᴛᴇᴅ ᴀғᴛᴇʀ 𝟷𝟶 ᴍɪɴᴜᴛᴇs.</i></b>", reply_markup=InlineKeyboardMarkup(
+        k = await client.send_message(chat_id=user,text=f"<b>Name 📛: <code>{files.file_name}</code> \n\nDownload Link 👇🗳️⚡ : {g}\n\n Size - 📦 ➠ : {get_size(files.file_size)}\n\n<i>Note: ⚠️ Link would be deleted soon</i></b>", reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton('DOWNLOAD NOW ⬇️', url=g)
@@ -295,13 +295,13 @@ async def start(client, message):
             )
         )
         await asyncio.sleep(600)
-        await k.edit("<b>Your message is successfully deleted!!!</b>")
+        await k.edit("<b>Told you 🗑 <i>Its Gone</i> ⛔ Request again 👉🏻 @yedekho</b>")
         return
         
     elif data.startswith("all"):
         files = temp.GETALL.get(file_id)
         if not files:
-            return await message.reply('<b><i>No such file exist.</b></i>')
+            return await message.reply('<i>No such file exist.</i>')
         filesarr = []
         for file in files:
             file_id = file.file_id
@@ -370,7 +370,7 @@ async def start(client, message):
                 )
             )
             await asyncio.sleep(1200)
-            await k.edit("<b>Your message is successfully deleted!!!</b>")
+            await k.edit("<b>Told you 🗑 <i>Its Gone</i> ⛔ Request again 👉🏻 @yedekho</b>")
             return
     user = message.from_user.id
     files_ = await get_file_details(file_id)           
@@ -528,7 +528,7 @@ async def delete(bot, message):
         '_id': file_id,
     })
     if result.deleted_count:
-        await msg.edit('File is successfully deleted from database')
+        await msg.edit('The files were successfully deleted')
     else:
         file_name = re.sub(r"(_|\-|\.|\+)", " ", str(media.file_name))
         result = await Media.collection.delete_many({
@@ -537,7 +537,7 @@ async def delete(bot, message):
             'mime_type': media.mime_type
             })
         if result.deleted_count:
-            await msg.edit('File is successfully deleted from database')
+            await msg.edit('The files were successfully deleted')
         else:
             # files indexed before https://github.com/EvamariaTG/EvaMaria/commit/f3d2a1bcb155faf44178e5d7a685a1b533e714bf#diff-86b613edf1748372103e94cacff3b578b36b698ef9c16817bb98fe9ef22fb669R39 
             # have original file name.
@@ -547,9 +547,9 @@ async def delete(bot, message):
                 'mime_type': media.mime_type
             })
             if result.deleted_count:
-                await msg.edit('File is successfully deleted from database')
+                await msg.edit('The files were successfully deleted')
             else:
-                await msg.edit('File not found in database')
+                await msg.edit('No Such file not found')
 
 
 @Client.on_message(filters.command('deleteall') & filters.user(ADMINS))
@@ -735,8 +735,8 @@ async def settings(client, message):
         ]
 
         btn = [[
-                InlineKeyboardButton("Oᴘᴇɴ Hᴇʀᴇ ↓", callback_data=f"opnsetgrp#{grp_id}"),
-                InlineKeyboardButton("Oᴘᴇɴ Iɴ PM ⇲", callback_data=f"opnsetpm#{grp_id}")
+                InlineKeyboardButton("Open Here ⬇️", callback_data=f"opnsetgrp#{grp_id}"),
+                InlineKeyboardButton("Open in Personal 🤌🏻", callback_data=f"opnsetpm#{grp_id}")
               ]]
 
         reply_markup = InlineKeyboardMarkup(buttons)
