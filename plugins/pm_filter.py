@@ -76,7 +76,7 @@ async def pm_text(bot, message):
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
     if user_id in ADMINS: return # ignore admins
     await message.reply_text(
-         text=f"<b>ʜᴇʏ {user} 😍 ,\n\nSorry ℹ️ We currently do not support searching in personal message, Hop into the @yedekho 🔎 to Get your content .</a>\nIf you have any Issues, Get Help 🔤</b>",   
+         text=f"<b>heyy 👋🏻 {user} 😍 ,\n\nSorry ℹ️ We currently do not support searching in personal message, Hop into the @yedekho 🔎 to Get your content .</a>\nIf you have any Issues, Get Help 🔤</b>",   
          reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 Click here", url=f"https://t.me/yedekho_faq/25")]])
     )
     await bot.send_message(
@@ -482,7 +482,7 @@ async def seasons_cb_handler(client: Client, query: CallbackQuery):
     try:
         if int(query.from_user.id) not in [query.message.reply_to_message.from_user.id, 0]:
             return await query.answer(
-                f"⚠️ ʜᴇʟʟᴏ{query.from_user.first_name},\nᴛʜɪꜱ ɪꜱ ɴᴏᴛ ʏᴏᴜʀ ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ,\nʀᴇQᴜᴇꜱᴛ ʏᴏᴜʀ'ꜱ...",
+                f"⚠️ Hey {query.from_user.first_name},\nYou can request Your Content yourself ,\nRequest Yourself 🔖",
                 show_alert=True,
             )
     except:
@@ -548,7 +548,7 @@ async def filter_seasons_cb_handler(client: Client, query: CallbackQuery):
     try:
         if int(req) not in [query.message.reply_to_message.from_user.id, 0]:
             return await query.answer(
-                f"⚠️ ʜᴇʟʟᴏ{query.from_user.first_name},\nᴛʜɪꜱ ɪꜱ ɴᴏᴛ ʏᴏᴜʀ ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ,\nʀᴇQᴜᴇꜱᴛ ʏᴏᴜʀ'ꜱ...",
+                f"⚠️ Hey {query.from_user.first_name},\nYou can request Your Content yourself ,\nRequest Yourself 🔖",
                 show_alert=True,
             )
     except:
@@ -582,7 +582,7 @@ async def filter_seasons_cb_handler(client: Client, query: CallbackQuery):
         files.extend(files2)
         
     if not files:
-        await query.answer("🚫 𝗡𝗼 𝗙𝗶𝗹𝗲 𝗪𝗲𝗿𝗲 𝗙𝗼𝘂𝗻𝗱 🚫", show_alert=1)
+        await query.answer("🚫 No Search Results Found  🚫", show_alert=1)
         return
     temp.GETALL[key] = files
     settings = await get_settings(message.chat.id)
