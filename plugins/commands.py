@@ -82,12 +82,12 @@ async def start(client, message):
             try:
                 kk, file_id = message.command[1].split("_", 1)
                 pre = 'checksubp' if kk == 'filep' else 'checksub' 
-                btn.append([InlineKeyboardButton("⚠️✅ Try again", callback_data=f"{pre}#{file_id}")])
+                btn.append([InlineKeyboardButton("✅ Try again", callback_data=f"{pre}#{file_id}")])
             except (IndexError, ValueError):
-                btn.append([InlineKeyboardButton("⚠️✅ Try again", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
+                btn.append([InlineKeyboardButton("✅ Try again", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
-            text="Please join the YeDekho Specials 💛...\n\n𝘠𝘰𝘶𝘳 𝘊𝘰𝘮𝘱𝘭𝘦𝘵𝘦 𝘤𝘰𝘯𝘵𝘦𝘯𝘵 𝘳𝘦𝘤𝘰𝘮𝘮𝘦𝘯𝘥𝘢𝘵𝘪𝘰𝘯𝘴 𝘱𝘭𝘢𝘵𝘧𝘰𝘳𝘮 🤩\n\nJoin and Click '⚠️Try Again'\nEnjoy 🤩🤌🏻",
+            text="Please join the YeDekho Specials 💛...\n\n𝘠𝘰𝘶𝘳 𝘊𝘰𝘮𝘱𝘭𝘦𝘵𝘦 𝘤𝘰𝘯𝘵𝘦𝘯𝘵 𝘳𝘦𝘤𝘰𝘮𝘮𝘦𝘯𝘥𝘢𝘵𝘪𝘰𝘯𝘴 𝘱𝘭𝘢𝘵𝘧𝘰𝘳𝘮 🤩\n\nJoin and Click ✅ Try Again and Enjoy 😍",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode=enums.ParseMode.MARKDOWN
             )
@@ -119,7 +119,7 @@ async def start(client, message):
         file_id = data
         pre = ""
     if data.split("-", 1)[0] == "BATCH":
-        sts = await message.reply("<b>Please wait...</b>")
+        sts = await message.reply("<b>Just a second please ⌛</b>")
         file_id = data.split("-", 1)[1]
         msgs = BATCH_FILES.get(file_id)
         if not msgs:
@@ -249,7 +249,7 @@ async def start(client, message):
             await verify_user(client, userid, token)
         else:
             return await message.reply_text(
-                text="<b>Invalid link or Expired link ! Try Again @yedekho</b>",
+                text="<b>Invalid link or Expired link !\nRequest Again 👉🏻 @yedekho</b>",
                 protect_content=True
             )
     if data.startswith("sendfiles"):
@@ -351,7 +351,7 @@ async def start(client, message):
     elif data.startswith("files"):
         user = message.from_user.id
         if temp.SHORT.get(user)==None:
-            await message.reply_text(text="<b>Please Search Again in Group</b>")
+            await message.reply_text(text="<b>Please Search Again 👉🏻 @yedekho</b>")
         else:
             chat_id = temp.SHORT.get(user)
         settings = await get_settings(chat_id)
