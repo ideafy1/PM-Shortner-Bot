@@ -1004,10 +1004,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                  InlineKeyboardButton('🫨ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=SUPPORT_CHAT),
-                  InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                  InlineKeyboardButton('🔎 Search Engine', url="https://t.me/yedekho"),
+                  InlineKeyboardButton('🌡️ Any Issues', url="https://t.me/yedekho_faq/25")
                 ],[
-                  InlineKeyboardButton("😇ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ😇", url="https://t.me/+4nzja42ELQwzOWVl")
+                  InlineKeyboardButton("🔥 Get Recommendations", url="https://t.me/yedekho_in")
                  ]
                 ]
             )
