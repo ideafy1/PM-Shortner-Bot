@@ -185,7 +185,7 @@ Tɪᴘ: Select the language and Season for Filtering Your Query ⚡"""
 <b>{file_name}<b/>
 
 
-</i>Thanks for using <b>@YeDekho Platforms</i></b> ⚡\n<b>Enjoy</>"""
+</i>Thanks for using\n <b>@YeDekho Platforms</i></b>⚡ <b>Enjoy 🤩</>"""
     
     IMDB_TEMPLATE_TXT = """
 <b>Query: {query}
@@ -236,7 +236,7 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 <b>{file_name}<b/>
 
 
-</i>Thanks for using <b>@YeDekho Platforms</i></b> ⚡\n<b>Enjoy</>"""
+</i>Thanks for using\n <b>@YeDekho Platforms</i></b>⚡ <b>Enjoy 🤩</>"""
 
     RESTART_TXT = """
 <b>I Am UP & Running!
