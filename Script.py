@@ -108,64 +108,65 @@ Added By - {}"""
 ID - <code>{}</code>
 Name - {}"""
 
-    ALRT_TXT = """ayee 😑 {},
+    ALRT_TXT = """Sorry {},
 I dont remember that,
-Request again please..."""
+Request again ⚡ @yedekho..."""
 
     OLD_ALRT_TXT = """Sorry {},
 I really dont remember that, 
-Please request again 😊."""
+Request again ⚡ @yedekho"""
 
-    CUDNT_FND = """Sorry, i cant find that, Dont worry you will get it soon 😊{}
+    CUDNT_FND = """Sorry, No Results were Found, We will get that soon 😊{}
 Did mean this one 👇🏻?"""
 
-    I_CUDNT = """<b>Naaah man 😑 I am not able to find it {} 😕
+    I_CUDNT = """<b>Sorry, No Results Found {} 😕
 
-We request to recheck your spelling, Its probably incorrect 🔎
+Recheck your spelling, Its probably incorrect 🔎
+⚠️ Kisi bhi special character ka use nahi karna hai \n⚠️ Do not use any special Characters 
 
-ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇꜱᴛ ꜰᴏʀᴍᴀᴛ 👇
+Movie Request Format 👇🏻
 
-ᴇxᴀᴍᴘʟᴇ : Uncharted or Uncharted 2022 or Uncharted En
+Example : Uncharted or Uncharted 2022 or Uncharted En
 
-ꜱᴇʀɪᴇꜱ ʀᴇǫᴜᴇꜱᴛ ꜰᴏʀᴍᴀᴛ 👇
+Series Request Format 👇🏻
 
-ᴇxᴀᴍᴘʟᴇ : Loki S01 or Loki S01E04 or Lucifer S03E24
+Example : Loki S01 or Loki S01E04 or Lucifer S03E24
 
-🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ ':(!,./)</b>"""
+❌ Dont Use ➠ ':(!,./)</b>"""
 
-    I_CUD_NT = """ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴀɴʏ ᴍᴏᴠɪᴇ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ {}.
-ᴘʟᴇᴀꜱᴇ ᴄʜᴇᴄᴋ ᴛʜᴇ ꜱᴘᴇʟʟɪɴɢ ᴏɴ ɢᴏᴏɢʟᴇ ᴏʀ ɪᴍᴅʙ..."""
+    I_CUD_NT = """Sorry, No Results Found for {}.
+Suggestion - Check ✅ the spelling on Google or IMDb and request again"""
 
-    MVE_NT_FND = """ᴍᴏᴠɪᴇ ɴᴏᴛ ꜰᴏᴜɴᴅ ɪɴ ᴅᴀᴛᴀʙᴀꜱᴇ..."""
+    MVE_NT_FND = """Sorry, No results Found 🤧..."""
 
-    TOP_ALRT_MSG = """Cʜᴇᴄᴋɪɴɢ Fᴏʀ Mᴏᴠɪᴇ Iɴ Dᴀᴛᴀʙᴀsᴇ..."""
+    TOP_ALRT_MSG = """Searching for your Request ⌛"""
 
-    MELCOW_ENG = """<b>Hᴇʟʟᴏ {} 😍, Aɴᴅ Wᴇʟᴄᴏᴍᴇ Tᴏ {} Gʀᴏᴜᴘ ❤️</b>"""
+    MELCOW_ENG = """<b>hey {} please dont request, without reading rules for {} Platform ⚡</b>"""
 
     SHORTLINK_INFO = """𝘚𝘰𝘮𝘦𝘵𝘩𝘪𝘯𝘨 𝘮𝘢𝘨𝘪𝘤𝘢𝘭 😄 /n𝘪𝘴 𝘸𝘢𝘪𝘵𝘪𝘯𝘨 𝘧𝘰𝘳 𝘺𝘰𝘶, 𝘌𝘹𝘱𝘭𝘰𝘳𝘦 🤩
 
 <b>𝘞𝘩𝘢𝘵 𝘪𝘴 𝘠𝘦𝘋𝘦𝘬𝘩𝘰 𝘝𝘦𝘳𝘪𝘧𝘪𝘦𝘥𝘴??⭐</b>"""
 
     REQINFO = """
-⚠ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ⚠
+ℹ️ Information
 
-ᴀꜰᴛᴇʀ 5 ᴍɪɴᴜᴛᴇꜱ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇʟᴇᴛᴇᴅ
+This message would be auto-deleted in 5 minutes ⌛
 
-ɪꜰ ʏᴏᴜ ᴅᴏ ɴᴏᴛ ꜱᴇᴇ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ ᴍᴏᴠɪᴇ / sᴇʀɪᴇs ꜰɪʟᴇ, ʟᴏᴏᴋ ᴀᴛ ᴛʜᴇ ɴᴇxᴛ ᴘᴀɢᴇ"""
+Go to the next page ➡️ If your Request does not show up here"""
 
     SELECT = """
-MOVIES ➢ Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs"
+For MOVIES ➢ Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs"
 
-SERIES ➢ Sᴇʟᴇᴄᴛ "Sᴇᴀsᴏɴs"
+For SERIES ➢ Sᴇʟᴇᴄᴛ "Sᴇᴀsᴏɴs"
 
-Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛᴏɴ ᴀɴᴅ Cʟɪᴄᴋ "Sᴇɴᴅ Aʟʟ" Tᴏ ɢᴇᴛ Aʟʟ Fɪʟᴇ Lɪɴᴋs ɪɴ ᴀ Sɪɴɢʟᴇ ᴄʟɪᴄᴋ"""
+Tɪᴘ: Select the language and Season for Filtering Your Query ⚡"""
 
     SINFO = """
 ⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯
 ꜱᴇʀɪᴇꜱ ʀᴇǫᴜᴇꜱᴛ ꜰᴏʀᴍᴀᴛ
 ⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯
 
-ɢᴏ ᴛᴏ ɢᴏᴏɢʟᴇ ➠👇🏻 ᴛʏᴘᴇ ꜱᴇʀɪᴇꜱ ɴᴀᴍᴇ ➠ ᴄᴏᴘʏ ᴄᴏʀʀᴇᴄᴛ ɴᴀᴍᴇ ➠ ᴘᴀꜱᴛᴇ ᴛʜɪꜱ ɢʀᴏᴜᴘ
+ɢᴏ ᴛᴏ ɢᴏᴏɢʟᴇ ➠👇🏻 ᴛʏᴘᴇ ꜱᴇʀɪᴇꜱ ɴᴀᴍᴇ ➠ ᴄᴏᴘʏ ᴄᴏʀʀᴇᴄᴛ ɴᴀᴍᴇ ➠ ᴘᴀꜱᴛᴇ here
 
 ᴇxᴀᴍᴘʟᴇ : Loki S01E01
 
@@ -181,12 +182,10 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
     CAPTION = """
-<b>{file_name}
+<b>{file_name}<b/>
 
 
-╰────── • ◆ • ──────╯
-  ♡ ㅤ  ❍ㅤ     ⎙     ⌲
-  ˡᶦᵏᵉ ᶜᵒᵐᵐᵉⁿᵗ  ˢᵃᵛᵉ  ˢʰᵃʳᵉ</b>"""
+</i>Thanks for using <b>@YeDekho Platforms</i></b> ⚡\n<b>Enjoy</>"""
     
     IMDB_TEMPLATE_TXT = """
 <b>Query: {query}
@@ -234,15 +233,13 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 • /plink - <code>Jᴜsᴛ ʟɪᴋᴇ /link, ʙᴜᴛ ᴛʜᴇ ғɪʟᴇ ᴡɪʟʟ ʙᴇ sᴇɴᴅ ᴡɪᴛʜ ғᴏʀᴡᴀʀᴅ ʀᴇsᴛʀɪᴄᴛɪᴏɴ.</code>"""
 
     CAPTION = """
-<b>{file_name}
+<b>{file_name}<b/>
 
 
-╰────── • ◆ • ──────╯
-  ♡ ㅤ  ❍ㅤ     ⎙     ⌲
-  ˡᶦᵏᵉ ᶜᵒᵐᵐᵉⁿᵗ  ˢᵃᵛᵉ  ˢʰᵃʳᵉ</b>"""
+</i>Thanks for using <b>@YeDekho Platforms</i></b> ⚡\n<b>Enjoy</>"""
 
     RESTART_TXT = """
-<b>Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !
+<b>I Am UP & Running!
 
 📅 Dᴀᴛᴇ : <code>{}</code>
 ⏰ Tɪᴍᴇ : <code>{}</code>
