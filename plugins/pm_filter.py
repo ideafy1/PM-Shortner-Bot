@@ -76,12 +76,16 @@ async def pm_text(bot, message):
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
     if user_id in ADMINS: return # ignore admins
     await message.reply_text(
-         text=f"<b>heyy 👋🏻 {user} 😍 ,\n\nSorry ℹ️ We currently do not support searching in personal message, Hop into the @yedekho 🔎 to Get your content .</a>\nIf you have any Issues, Get Help 🔤</b>",   
-         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 Click here", url=f"https://t.me/yedekho_faq/25")]])
+         text=f"<b>माफ़ करिये {user} यहाँ पे कुछ नहीं मिलेगा
+यहाँ अनुरोध करो 👉🏻 @𝗒𝖾𝖽𝖾𝗄𝗁𝗈 🔍
+<b><i>केवल फिल्म का नाम और वर्ष लिखें</b></i>\n\n𝖲𝗈𝗋𝗋𝗒 {user} 𝖻𝗎𝗍 𝗒𝗈𝗎 𝖼𝖺𝗇'𝗍 𝗀𝖾𝗍 𝖺𝗇𝗒𝗍𝗁𝗂𝗇𝗀 𝗁𝖾𝗋𝖾
+𝗋𝖾𝗊𝗎𝖾𝗌𝗍 𝗁𝖾𝗋𝖾 👉🏻 @𝗒𝖾𝖽𝖾𝗄𝗁𝗈 🔍
+<b><i>𝗍𝗒𝗉𝖾 𝗈𝗇𝗅𝗒 𝗆𝗈𝗏𝗂𝖾 𝗇𝖺𝗆𝖾 & 𝗒𝖾𝖺𝗋</b></i>",   
+         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("YeDekho Search 🔍", url=f"https://t.me/yedekho")]])
     )
     await bot.send_message(
         chat_id=LOG_CHANNEL,
-        text=f"<b>#Pm_msg\n\nNᴀᴍᴇ : {user}\n\nID : {user_id}\n\nMᴇssᴀɢᴇ : {content}</b>"
+        text=f"<b>#Pm_msg\n\nName : {user}\n\nID : {user_id}\n\nMessage : {content}</b>"
     )
 
 @Client.on_callback_query(filters.regex(r"^next"))
