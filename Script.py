@@ -116,7 +116,7 @@ Request again ⚡ @yedekho..."""
 I really dont remember that, 
 Request again ⚡ @yedekho"""
 
-    CUDNT_FND = """Sorry, No Results were Found, We will get that soon 😊{}
+    CUDNT_FND = """No results Found , Check your spelling {}
 Did mean this one 👇🏻?"""
 
     I_CUDNT = """<b>Sorry, No Results Found {} 😕
