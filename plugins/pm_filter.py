@@ -1431,10 +1431,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton("Downloading & Playing 🎯", url="https://t.me/yedekho_faq/25")
+            InlineKeyboardButton("Downloading & Playing ⬇️⏯️", url="https://t.me/yedekho_faq/25")
         ], [
-            InlineKeyboardButton('Filters', callback_data='filters'),
-            InlineKeyboardButton('File Store', callback_data='store_file')
+            InlineKeyboardButton('Link Opening ?', callback_data='filters'),
+            InlineKeyboardButton('Direct Content ?', callback_data='store_file')
         ], [
             InlineKeyboardButton('Connection', callback_data='coct'),
             InlineKeyboardButton('Extras', callback_data='extra')
