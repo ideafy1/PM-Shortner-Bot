@@ -116,7 +116,7 @@ Request again ⚡ @yedekho..."""
 I really dont remember that, 
 Request again ⚡ @yedekho"""
 
-    CUDNT_FND = """No results Found , Type only movie Name\n and language if you want {}
+    CUDNT_FND = """No results Found for {} \nType <b>only</b> <i>movie/series</i> name \n𝘢𝘯𝘥 𝘭𝘢𝘯𝘨𝘶𝘢𝘨𝘦 𝘪𝘧 𝘺𝘰𝘶 𝘸𝘢𝘯𝘵 🔠
 Did mean this one 👇🏻?"""
 
     I_CUDNT = """<b>Sorry, No Results Found {} 😕\n Either spelling is wrong\n or It is not available 👎🏻\n We will Get it Soon 🤩
