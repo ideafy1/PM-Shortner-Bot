@@ -116,10 +116,10 @@ Request again ⚡ @yedekho..."""
 I really dont remember that, 
 Request again ⚡ @yedekho"""
 
-    CUDNT_FND = """No results Found , Check your spelling {}
+    CUDNT_FND = """No results Found , Type only movie Name\n and language if you want {}
 Did mean this one 👇🏻?"""
 
-    I_CUDNT = """<b>Sorry, No Results Found {} 😕
+    I_CUDNT = """<b>Sorry, No Results Found {} 😕\n Either spelling is wrong\n or It is not available 👎🏻\n We will Get it Soon 🤩
 
 Recheck your spelling, Its probably incorrect 🔎
 ⚠️ Kisi bhi special character ka use nahi karna hai \n⚠️ Do not use any special Characters 
