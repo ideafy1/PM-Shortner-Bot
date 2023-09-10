@@ -25,6 +25,13 @@ async def verupikkals(bot, message):
     success = 0
     async for user in users:
         pti, sh = await broadcast_messages(int(user['id']), b_msg)
+
+            # Get the user's first name
+        first_name = user.get("first_name", "")
+
+        # Replace %firstname% with the user's first name in the message
+        modified_message = b_msg.text.replace("%firstname%", first_name)
+            
         if pti:
             success += 1
         elif pti == False:
