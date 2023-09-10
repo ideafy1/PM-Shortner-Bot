@@ -119,9 +119,14 @@ Request again ⚡ @yedekho"""
     CUDNT_FND = """No results Found for {} \nType <b>only</b> <i>movie/series</i> name \n𝘢𝘯𝘥 𝘭𝘢𝘯𝘨𝘶𝘢𝘨𝘦 𝘪𝘧 𝘺𝘰𝘶 𝘸𝘢𝘯𝘵 🔠
 Did mean this one 👇🏻?"""
 
-    I_CUDNT = """<b>Sorry, No Results Found {} 😕\n Either spelling is wrong\n or It is not available 👎🏻\n We will Get it Soon 🤩
+    I_CUDNT = """<b>Sorry, No Results Found {} 😕
+What are Possible Issues 👇🏻
+👉🏻 Spelling mistake 
+👉🏻 Unreleased / Not Yet Released 
+👉🏻 Not yet Leaked 
+👉🏻 Currently not Available with us
+👉🏻 Search Google before request
 
-Recheck your spelling, Its probably incorrect 🔎
 ⚠️ Kisi bhi special character ka use nahi karna hai \n⚠️ Do not use any special Characters 
 
 Movie Request Format 👇🏻
@@ -137,7 +142,13 @@ Example : Loki S01 or Loki S01E04 or Lucifer S03E24
     I_CUD_NT = """Sorry, No Results Found for {}.
 Suggestion - Check ✅ the spelling on Google or IMDb and request again"""
 
-    MVE_NT_FND = """Sorry, No results Found 🤧..."""
+    MVE_NT_FND = """Sorry, No results Found 🤧
+    What are Possible Issues 👇🏻
+👉🏻 Spelling mistake 
+👉🏻 Unreleased / Not Yet Released 
+👉🏻 Not yet Leaked 
+👉🏻 Currently not Available with us
+👉🏻 Search Google before request"""
 
     TOP_ALRT_MSG = """Searching for your Request ⌛"""
 
