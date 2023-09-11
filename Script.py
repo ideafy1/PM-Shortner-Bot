@@ -1,5 +1,5 @@
 class script(object):
-    START_TXT = """hiii 🤩 {} \n\nWelcome to the world's 𝘤𝘰𝘰𝘭𝘦𝘴𝘵 ⚡ 𝘤𝘰𝘯𝘵𝘦𝘯𝘵 search engine  ! 𝘠𝘦𝘋𝘦𝘬𝘩𝘰\n\n𝘛𝘩𝘢𝘯𝘬𝘴 for being here🍿🥤 \n"""
+    START_TXT = """hiii 🤩 {} \n\nWelcome to the world's 𝘤𝘰𝘰𝘭𝘦𝘴𝘵 ⚡ 𝘤𝘰𝘯𝘵𝘦𝘯𝘵 search engine  ! 𝘠𝘦𝘋𝘦𝘬𝘩𝘰\n\n𝘛𝘩𝘢𝘯𝘬𝘴 for being here 🥤 \n"""
 
     
     HELP_TXT = """hey {} \n𝘵𝘦𝘭𝘭 𝘮𝘦 𝘸𝘩𝘢𝘵 𝘺𝘰𝘶 𝘯𝘦𝘦𝘥 𝘩𝘦𝘭𝘱 𝘸𝘪𝘵𝘩 ?? 🤔👇🏻"""
@@ -122,10 +122,10 @@ Did mean this one 👇🏻?"""
     I_CUDNT = """<b>Sorry, No Results Found {} 😕
 What are Possible Issues 👇🏻
 👉🏻 Spelling mistake 
-👉🏻 Unreleased / Not Yet Released 
+👉🏻 Unreleased
 👉🏻 Not yet Leaked 
-👉🏻 Currently not Available with us
-👉🏻 Search Google before request
+👉🏻 Currently not Available
+👉🏻 Search Google
 
 ⚠️ Kisi bhi special character ka use nahi karna hai \n⚠️ Do not use any special Characters 
 
@@ -142,13 +142,12 @@ Example : Loki S01 or Loki S01E04 or Lucifer S03E24
     I_CUD_NT = """Sorry, No Results Found for {}.
 Suggestion - Check ✅ the spelling on Google or IMDb and request again"""
 
-    MVE_NT_FND = """Sorry, No results Found 🤧
-    What are Possible Issues 👇🏻
+    MVE_NT_FND = """Sorry, No results Found 🤧\nWhat are Possible Issues 👇🏻
 👉🏻 Spelling mistake 
-👉🏻 Unreleased / Not Yet Released 
+👉🏻 Unreleased
 👉🏻 Not yet Leaked 
-👉🏻 Currently not Available with us
-👉🏻 Search Google before request"""
+👉🏻 Currently not Available
+👉🏻 Search Google"""
 
     TOP_ALRT_MSG = """Searching for your Request ⌛"""
 
