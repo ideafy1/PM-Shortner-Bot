@@ -76,7 +76,7 @@ async def pm_text(bot, message):
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
     if user_id in ADMINS: return # ignore admins
     await message.reply_text(
-         text=f"oh sorry {user}/nrequest that here 👉🏻 @yedekho /n/nअरे यार {user}/nजो चाहिए इसमें बोलो 👉🏻 @yedekho",   
+         text=f"oh sorry {user}\nrequest that here 👉🏻 @yedekho \n\nअरे यार {user}\nजो चाहिए इसमें बोलो 👉🏻 @yedekho",   
          reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Search Here 🔍", url=f"https://t.me/yedekho")]])
     )
     await bot.send_message(
