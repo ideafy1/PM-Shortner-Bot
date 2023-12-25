@@ -359,7 +359,7 @@ async def start(client, message):
             files_ = await get_file_details(file_id)
             files = files_[0]
             g = await get_shortlink(chat_id, f"https://telegram.me/{temp.U_NAME}?start=file_{file_id}")
-            k = await client.send_message(chat_id=message.from_user.id,text=f"<b>📕Nᴀᴍᴇ ➠ : <code>{files.file_name}</code> \n\n🔗Sɪᴢᴇ ➠ : {get_size(files.file_size)}\n\n📂Fɪʟᴇ ʟɪɴᴋ ➠ : {g}\n\n<i>Note: ⚠️ ᴛʜɪs ᴍᴇssᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏ ᴅᴇʟᴇᴛᴇᴅ ᴀғᴛᴇʀ 𝟷𝟶 ᴍɪɴᴜᴛᴇs.</i></b>", reply_markup=InlineKeyboardMarkup(
+            k = await client.send_message(chat_id=message.from_user.id,text=f"<b>Name 🏷️ : <code>{files.file_name}</code> \n\nSize 📦 : {get_size(files.file_size)}\n\nDownload link  👇🏻🗳️⚡ : {g}\n\n</b><b>→ 𝖧𝖾𝗋𝖾 𝗂𝗌 𝗅𝗂𝗇𝗄 𝖿𝗈𝗋 𝗒𝗈𝗎𝗋 𝖬𝗈𝗏𝗂𝖾 / 𝖲𝖾𝗋𝗂𝖾𝗌\n→𝖢𝗅𝗂𝖼𝗄 𝗍𝗁𝖾 DOWNLOAD NOW 𝖻𝗎𝗍𝗍𝗈𝗇\n→𝖢𝗅𝗂𝖼𝗄 𝗍𝗁𝖾 HOW TO DOWNLOAD 𝗍𝗈 𝗅𝖾𝖺𝗋𝗇 𝗍𝗈 𝗈𝗉𝖾𝗇 𝗅𝗂𝗇𝗄\n\n𝖫𝗂𝗇𝗄 𝗐𝗂𝗅𝗅 𝖻𝖾 𝖽𝖾𝗅𝖾𝗍𝖾𝖽 𝗂𝗇 10 𝗆𝗂𝗇\n( 𝖡𝖾 𝖰𝗎𝗂𝖼𝗄 ) ⌛</b>", reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton('DOWNLOAD NOW ↧', url=g)
