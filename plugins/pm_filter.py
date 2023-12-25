@@ -912,9 +912,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
                             [
                              [
                               InlineKeyboardButton('🔎 Search Engine', url="https://t.me/yedekho"),
-                              InlineKeyboardButton('🌡️ Any Issues', url="https://t.me/yedekho_faq/25")
+                              InlineKeyboardButton('🌡️ Any Issues', url="https://t.me/yedekho_faq")
                             ],[
-                              InlineKeyboardButton("🔥 Get Recommendations", url="https://t.me/yedekho_in")
+                              InlineKeyboardButton("🔥 Get Recommendations", url="https://t.me/yedekho_in/85")
                              ]
                             ]
                         )
@@ -1005,9 +1005,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 [
                  [
                   InlineKeyboardButton('🔎 Search Engine', url="https://t.me/yedekho"),
-                  InlineKeyboardButton('🌡️ Any Issues', url="https://t.me/yedekho_faq/25")
+                  InlineKeyboardButton('🌡️ Any Issues', url="https://t.me/yedekho_faq")
                 ],[
-                  InlineKeyboardButton("🔥 Get Recommendations", url="https://t.me/yedekho_in")
+                  InlineKeyboardButton("🔥 Get Recommendations", url="https://t.me/yedekho_in/85")
                  ]
                 ]
             )
