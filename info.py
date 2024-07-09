@@ -32,7 +32,7 @@ SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/ea23f9ae260b7da008
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5651594253').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001859280852').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001956475641').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '5089010547 6437633175 5371556843 1136583238 6420882329 5016196919').split()]
@@ -67,7 +67,7 @@ CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/yedekho_faq')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/yedekho_faq/2')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'doing maths 🤌🏻')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001528659895'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002248010057'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'YeDekho FAQs')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
